@@ -5423,6 +5423,468 @@
         "formationId": "ai-p11-mlops"
       },
       {
+        "id": "ai-p11-orchestration-s01-p1",
+        "activityId": "ai-p11-orchestration",
+        "title": "Orquestração de pipelines (Airflow)",
+        "part": 1,
+        "parts": 2,
+        "text": "Orquestração de pipelines (Airflow) · etapa 1/2",
+        "provider": "Apache Airflow docs",
+        "url": "https://airflow.apache.org/docs/",
+        "hours": 7,
+        "description": "DAGs, schedules, sensors, XCom, backfill, retries e alertas — orquestração de pipelines de dados/ML.",
+        "acceptance": "DAG que roda ingestão + treino + eval em 3 etapas, com retry e alerta documentados.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w168",
+    "sequence": 168,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Orquestração de pipelines (Airflow)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-orchestration-s01-p2",
+        "activityId": "ai-p11-orchestration",
+        "title": "Orquestração de pipelines (Airflow)",
+        "part": 1,
+        "parts": 2,
+        "text": "Orquestração de pipelines (Airflow) · etapa 1/2",
+        "provider": "Apache Airflow docs",
+        "url": "https://airflow.apache.org/docs/",
+        "hours": 1,
+        "description": "DAGs, schedules, sensors, XCom, backfill, retries e alertas — orquestração de pipelines de dados/ML.",
+        "acceptance": "DAG que roda ingestão + treino + eval em 3 etapas, com retry e alerta documentados.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-orchestration-s02-p1",
+        "activityId": "ai-p11-orchestration",
+        "title": "Orquestração de pipelines (Airflow)",
+        "part": 2,
+        "parts": 2,
+        "text": "Orquestração de pipelines (Airflow) · etapa 2/2",
+        "provider": "Apache Airflow docs",
+        "url": "https://airflow.apache.org/docs/",
+        "hours": 7,
+        "description": "DAGs, schedules, sensors, XCom, backfill, retries e alertas — orquestração de pipelines de dados/ML.",
+        "acceptance": "DAG que roda ingestão + treino + eval em 3 etapas, com retry e alerta documentados.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w169",
+    "sequence": 169,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Orquestração de pipelines (Airflow)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-orchestration-s02-p2",
+        "activityId": "ai-p11-orchestration",
+        "title": "Orquestração de pipelines (Airflow)",
+        "part": 2,
+        "parts": 2,
+        "text": "Orquestração de pipelines (Airflow) · etapa 2/2",
+        "provider": "Apache Airflow docs",
+        "url": "https://airflow.apache.org/docs/",
+        "hours": 1,
+        "description": "DAGs, schedules, sensors, XCom, backfill, retries e alertas — orquestração de pipelines de dados/ML.",
+        "acceptance": "DAG que roda ingestão + treino + eval em 3 etapas, com retry e alerta documentados.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-streaming-s01-p1",
+        "activityId": "ai-p11-streaming",
+        "title": "Kafka e streaming de dados",
+        "part": 1,
+        "parts": 2,
+        "text": "Kafka e streaming de dados · etapa 1/2",
+        "provider": "Confluent + Kafka docs",
+        "url": "https://kafka.apache.org/documentation/",
+        "hours": 7,
+        "description": "Topics, partitions, consumer groups, streaming de eventos de inferência, DLQ e exatamente-once.",
+        "acceptance": "Consumer Kafka que processa eventos de inferência com idempotência; cenário de falha documentado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w170",
+    "sequence": 170,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Kafka e streaming de dados",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-streaming-s01-p2",
+        "activityId": "ai-p11-streaming",
+        "title": "Kafka e streaming de dados",
+        "part": 1,
+        "parts": 2,
+        "text": "Kafka e streaming de dados · etapa 1/2",
+        "provider": "Confluent + Kafka docs",
+        "url": "https://kafka.apache.org/documentation/",
+        "hours": 1,
+        "description": "Topics, partitions, consumer groups, streaming de eventos de inferência, DLQ e exatamente-once.",
+        "acceptance": "Consumer Kafka que processa eventos de inferência com idempotência; cenário de falha documentado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-streaming-s02",
+        "activityId": "ai-p11-streaming",
+        "title": "Kafka e streaming de dados",
+        "part": 2,
+        "parts": 2,
+        "text": "Kafka e streaming de dados · etapa 2/2",
+        "provider": "Confluent + Kafka docs",
+        "url": "https://kafka.apache.org/documentation/",
+        "hours": 6,
+        "description": "Topics, partitions, consumer groups, streaming de eventos de inferência, DLQ e exatamente-once.",
+        "acceptance": "Consumer Kafka que processa eventos de inferência com idempotência; cenário de falha documentado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-k8s-s01-p1",
+        "activityId": "ai-p11-k8s",
+        "title": "Kubernetes para ML",
+        "part": 1,
+        "parts": 3,
+        "text": "Kubernetes para ML · etapa 1/3",
+        "provider": "Kubernetes docs + kubectl",
+        "url": "https://kubernetes.io/docs/home/",
+        "hours": 1,
+        "description": "Pods, deployments, services, probes, HPA, GPU scheduling básico e rodando um modelo de inferência.",
+        "acceptance": "Serviço de inferência no K8s local (kind/minikube) com HPA e rollout observado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w171",
+    "sequence": 171,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Kubernetes para ML",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-k8s-s01-p2",
+        "activityId": "ai-p11-k8s",
+        "title": "Kubernetes para ML",
+        "part": 1,
+        "parts": 3,
+        "text": "Kubernetes para ML · etapa 1/3",
+        "provider": "Kubernetes docs + kubectl",
+        "url": "https://kubernetes.io/docs/home/",
+        "hours": 7,
+        "description": "Pods, deployments, services, probes, HPA, GPU scheduling básico e rodando um modelo de inferência.",
+        "acceptance": "Serviço de inferência no K8s local (kind/minikube) com HPA e rollout observado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-k8s-s02-p1",
+        "activityId": "ai-p11-k8s",
+        "title": "Kubernetes para ML",
+        "part": 2,
+        "parts": 3,
+        "text": "Kubernetes para ML · etapa 2/3",
+        "provider": "Kubernetes docs + kubectl",
+        "url": "https://kubernetes.io/docs/home/",
+        "hours": 1,
+        "description": "Pods, deployments, services, probes, HPA, GPU scheduling básico e rodando um modelo de inferência.",
+        "acceptance": "Serviço de inferência no K8s local (kind/minikube) com HPA e rollout observado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w172",
+    "sequence": 172,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Kubernetes para ML",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-k8s-s02-p2",
+        "activityId": "ai-p11-k8s",
+        "title": "Kubernetes para ML",
+        "part": 2,
+        "parts": 3,
+        "text": "Kubernetes para ML · etapa 2/3",
+        "provider": "Kubernetes docs + kubectl",
+        "url": "https://kubernetes.io/docs/home/",
+        "hours": 7,
+        "description": "Pods, deployments, services, probes, HPA, GPU scheduling básico e rodando um modelo de inferência.",
+        "acceptance": "Serviço de inferência no K8s local (kind/minikube) com HPA e rollout observado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-k8s-s03-p1",
+        "activityId": "ai-p11-k8s",
+        "title": "Kubernetes para ML",
+        "part": 3,
+        "parts": 3,
+        "text": "Kubernetes para ML · etapa 3/3",
+        "provider": "Kubernetes docs + kubectl",
+        "url": "https://kubernetes.io/docs/home/",
+        "hours": 1,
+        "description": "Pods, deployments, services, probes, HPA, GPU scheduling básico e rodando um modelo de inferência.",
+        "acceptance": "Serviço de inferência no K8s local (kind/minikube) com HPA e rollout observado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w173",
+    "sequence": 173,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Kubernetes para ML",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-k8s-s03-p2",
+        "activityId": "ai-p11-k8s",
+        "title": "Kubernetes para ML",
+        "part": 3,
+        "parts": 3,
+        "text": "Kubernetes para ML · etapa 3/3",
+        "provider": "Kubernetes docs + kubectl",
+        "url": "https://kubernetes.io/docs/home/",
+        "hours": 3,
+        "description": "Pods, deployments, services, probes, HPA, GPU scheduling básico e rodando um modelo de inferência.",
+        "acceptance": "Serviço de inferência no K8s local (kind/minikube) com HPA e rollout observado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-iac-s01-p1",
+        "activityId": "ai-p11-iac",
+        "title": "Infra como código (Terraform)",
+        "part": 1,
+        "parts": 2,
+        "text": "Infra como código (Terraform) · etapa 1/2",
+        "provider": "Terraform docs",
+        "url": "https://developer.hashicorp.com/terraform/docs",
+        "hours": 5,
+        "description": "Providers, state, variables, outputs, plan/apply, drift e módulos reutilizáveis.",
+        "acceptance": "Infra do projeto-fio provisionada por Terraform; destruída e recriada reproduzindo o mesmo estado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w174",
+    "sequence": 174,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Infra como código (Terraform)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-iac-s01-p2",
+        "activityId": "ai-p11-iac",
+        "title": "Infra como código (Terraform)",
+        "part": 1,
+        "parts": 2,
+        "text": "Infra como código (Terraform) · etapa 1/2",
+        "provider": "Terraform docs",
+        "url": "https://developer.hashicorp.com/terraform/docs",
+        "hours": 3,
+        "description": "Providers, state, variables, outputs, plan/apply, drift e módulos reutilizáveis.",
+        "acceptance": "Infra do projeto-fio provisionada por Terraform; destruída e recriada reproduzindo o mesmo estado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-iac-s02",
+        "activityId": "ai-p11-iac",
+        "title": "Infra como código (Terraform)",
+        "part": 2,
+        "parts": 2,
+        "text": "Infra como código (Terraform) · etapa 2/2",
+        "provider": "Terraform docs",
+        "url": "https://developer.hashicorp.com/terraform/docs",
+        "hours": 4,
+        "description": "Providers, state, variables, outputs, plan/apply, drift e módulos reutilizáveis.",
+        "acceptance": "Infra do projeto-fio provisionada por Terraform; destruída e recriada reproduzindo o mesmo estado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-prometheus-s01-p1",
+        "activityId": "ai-p11-prometheus",
+        "title": "Monitoring: Prometheus e Grafana",
+        "part": 1,
+        "parts": 2,
+        "text": "Monitoring: Prometheus e Grafana · etapa 1/2",
+        "provider": "Prometheus + Grafana docs",
+        "url": "https://prometheus.io/docs/introduction/overview/",
+        "hours": 1,
+        "description": "Métricas customizadas, alertas, dashboards, histogramas de latência e SLIs/SLOs de inferência.",
+        "acceptance": "Dashboard Grafana do projeto-fio com 5 métricas (incluindo custo por 1k inferências).",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w175",
+    "sequence": 175,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Monitoring: Prometheus e Grafana",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-prometheus-s01-p2",
+        "activityId": "ai-p11-prometheus",
+        "title": "Monitoring: Prometheus e Grafana",
+        "part": 1,
+        "parts": 2,
+        "text": "Monitoring: Prometheus e Grafana · etapa 1/2",
+        "provider": "Prometheus + Grafana docs",
+        "url": "https://prometheus.io/docs/introduction/overview/",
+        "hours": 7,
+        "description": "Métricas customizadas, alertas, dashboards, histogramas de latência e SLIs/SLOs de inferência.",
+        "acceptance": "Dashboard Grafana do projeto-fio com 5 métricas (incluindo custo por 1k inferências).",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-prometheus-s02-p1",
+        "activityId": "ai-p11-prometheus",
+        "title": "Monitoring: Prometheus e Grafana",
+        "part": 2,
+        "parts": 2,
+        "text": "Monitoring: Prometheus e Grafana · etapa 2/2",
+        "provider": "Prometheus + Grafana docs",
+        "url": "https://prometheus.io/docs/introduction/overview/",
+        "hours": 1,
+        "description": "Métricas customizadas, alertas, dashboards, histogramas de latência e SLIs/SLOs de inferência.",
+        "acceptance": "Dashboard Grafana do projeto-fio com 5 métricas (incluindo custo por 1k inferências).",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w176",
+    "sequence": 176,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Monitoring: Prometheus e Grafana",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-prometheus-s02-p2",
+        "activityId": "ai-p11-prometheus",
+        "title": "Monitoring: Prometheus e Grafana",
+        "part": 2,
+        "parts": 2,
+        "text": "Monitoring: Prometheus e Grafana · etapa 2/2",
+        "provider": "Prometheus + Grafana docs",
+        "url": "https://prometheus.io/docs/introduction/overview/",
+        "hours": 3,
+        "description": "Métricas customizadas, alertas, dashboards, histogramas de latência e SLIs/SLOs de inferência.",
+        "acceptance": "Dashboard Grafana do projeto-fio com 5 métricas (incluindo custo por 1k inferências).",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p11-edge-s01-p1",
+        "activityId": "ai-p11-edge",
+        "title": "Edge AI e servindo modelos em dispositivos (opcional)",
+        "part": 1,
+        "parts": 1,
+        "text": "Edge AI e servindo modelos em dispositivos (opcional) · etapa 1/1",
+        "provider": "TFLite + ONNX Runtime",
+        "url": "https://onnxruntime.ai/",
+        "hours": 5,
+        "description": "Quantização, ONNX export, TFLite/PyTorch Mobile e inferência em CPU — quando vale a pena.",
+        "acceptance": "Modelo do projeto-fio exportado para ONNX e inferindo 2x mais rápido no CPU local.",
+        "kind": "prática opcional",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w177",
+    "sequence": 177,
+    "pillarId": "ai-p11",
+    "pillarTitle": "MLOps, serving e monitoramento",
+    "level": "avançado",
+    "title": "Edge AI e servindo modelos em dispositivos (opcional)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p11-edge-s01-p2",
+        "activityId": "ai-p11-edge",
+        "title": "Edge AI e servindo modelos em dispositivos (opcional)",
+        "part": 1,
+        "parts": 1,
+        "text": "Edge AI e servindo modelos em dispositivos (opcional) · etapa 1/1",
+        "provider": "TFLite + ONNX Runtime",
+        "url": "https://onnxruntime.ai/",
+        "hours": 1,
+        "description": "Quantização, ONNX export, TFLite/PyTorch Mobile e inferência em CPU — quando vale a pena.",
+        "acceptance": "Modelo do projeto-fio exportado para ONNX e inferindo 2x mais rápido no CPU local.",
+        "kind": "prática opcional",
+        "completed": false,
+        "formationId": null
+      },
+      {
         "id": "ai-p11-mlflow-s01-p1",
         "activityId": "ai-p11-mlflow",
         "title": "Tracking e registry",
@@ -5441,8 +5903,8 @@
     ]
   },
   {
-    "id": "ai-w168",
-    "sequence": 168,
+    "id": "ai-w178",
+    "sequence": 178,
     "pillarId": "ai-p11",
     "pillarTitle": "MLOps, serving e monitoramento",
     "level": "avançado",
@@ -5500,8 +5962,8 @@
     ]
   },
   {
-    "id": "ai-w169",
-    "sequence": 169,
+    "id": "ai-w179",
+    "sequence": 179,
     "pillarId": "ai-p11",
     "pillarTitle": "MLOps, serving e monitoramento",
     "level": "avançado",
@@ -5559,8 +6021,8 @@
     ]
   },
   {
-    "id": "ai-w170",
-    "sequence": 170,
+    "id": "ai-w180",
+    "sequence": 180,
     "pillarId": "ai-p11",
     "pillarTitle": "MLOps, serving e monitoramento",
     "level": "avançado",
@@ -5602,8 +6064,8 @@
     ]
   },
   {
-    "id": "ai-w171",
-    "sequence": 171,
+    "id": "ai-w181",
+    "sequence": 181,
     "pillarId": "ai-p11",
     "pillarTitle": "MLOps, serving e monitoramento",
     "level": "avançado",
@@ -5634,8 +6096,8 @@
     }
   },
   {
-    "id": "ai-w172",
-    "sequence": 172,
+    "id": "ai-w182",
+    "sequence": 182,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5661,8 +6123,8 @@
     ]
   },
   {
-    "id": "ai-w173",
-    "sequence": 173,
+    "id": "ai-w183",
+    "sequence": 183,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5688,8 +6150,8 @@
     ]
   },
   {
-    "id": "ai-w174",
-    "sequence": 174,
+    "id": "ai-w184",
+    "sequence": 184,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5731,8 +6193,8 @@
     ]
   },
   {
-    "id": "ai-w175",
-    "sequence": 175,
+    "id": "ai-w185",
+    "sequence": 185,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5758,8 +6220,8 @@
     ]
   },
   {
-    "id": "ai-w176",
-    "sequence": 176,
+    "id": "ai-w186",
+    "sequence": 186,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5785,8 +6247,8 @@
     ]
   },
   {
-    "id": "ai-w177",
-    "sequence": 177,
+    "id": "ai-w187",
+    "sequence": 187,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5812,8 +6274,8 @@
     ]
   },
   {
-    "id": "ai-w178",
-    "sequence": 178,
+    "id": "ai-w188",
+    "sequence": 188,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5839,8 +6301,8 @@
     ]
   },
   {
-    "id": "ai-w179",
-    "sequence": 179,
+    "id": "ai-w189",
+    "sequence": 189,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5866,8 +6328,8 @@
     ]
   },
   {
-    "id": "ai-w180",
-    "sequence": 180,
+    "id": "ai-w190",
+    "sequence": 190,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5893,8 +6355,8 @@
     ]
   },
   {
-    "id": "ai-w181",
-    "sequence": 181,
+    "id": "ai-w191",
+    "sequence": 191,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5936,8 +6398,8 @@
     ]
   },
   {
-    "id": "ai-w182",
-    "sequence": 182,
+    "id": "ai-w192",
+    "sequence": 192,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -5979,8 +6441,8 @@
     ]
   },
   {
-    "id": "ai-w183",
-    "sequence": 183,
+    "id": "ai-w193",
+    "sequence": 193,
     "pillarId": "ai-p12",
     "pillarTitle": "AWS e capstone em produção",
     "level": "avançado",
@@ -6023,6 +6485,1985 @@
     "milestone": {
       "title": "Prova mínima para candidatar-se a AI Engineer aplicado / ML Engineer",
       "evidence": "Capstone público operável com dados seguros, avaliação, observabilidade, segurança, custo e rollback.",
+      "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+    }
+  },
+  {
+    "id": "ai-w194",
+    "sequence": 194,
+    "pillarId": "ai-p07a",
+    "pillarTitle": "Prompt engineering, context engineering e MCP",
+    "level": "intermediário",
+    "title": "Prompt engineering sistemático",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07a-prompting-s01",
+        "activityId": "ai-p07a-prompting",
+        "title": "Prompt engineering sistemático",
+        "part": 1,
+        "parts": 2,
+        "text": "Prompt engineering sistemático · etapa 1/2",
+        "provider": "roadmap.sh Prompt Engineering",
+        "url": "https://roadmap.sh/prompt-engineering",
+        "hours": 8,
+        "description": "Zero/few-shot, CoT, ToT, ReAct, self-consistency, step-back, prompt tuning, debiasing, ensembling, calibração de confiabilidade e melhoria de precisão.",
+        "acceptance": "10 técnicas aplicadas ao projeto-fio com comparativo antes/depois documentado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w195",
+    "sequence": 195,
+    "pillarId": "ai-p07a",
+    "pillarTitle": "Prompt engineering, context engineering e MCP",
+    "level": "intermediário",
+    "title": "Prompt engineering sistemático",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07a-prompting-s02",
+        "activityId": "ai-p07a-prompting",
+        "title": "Prompt engineering sistemático",
+        "part": 2,
+        "parts": 2,
+        "text": "Prompt engineering sistemático · etapa 2/2",
+        "provider": "roadmap.sh Prompt Engineering",
+        "url": "https://roadmap.sh/prompt-engineering",
+        "hours": 8,
+        "description": "Zero/few-shot, CoT, ToT, ReAct, self-consistency, step-back, prompt tuning, debiasing, ensembling, calibração de confiabilidade e melhoria de precisão.",
+        "acceptance": "10 técnicas aplicadas ao projeto-fio com comparativo antes/depois documentado.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w196",
+    "sequence": 196,
+    "pillarId": "ai-p07a",
+    "pillarTitle": "Prompt engineering, context engineering e MCP",
+    "level": "intermediário",
+    "title": "Parâmetros de sampling e output control",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07a-sampling-s01",
+        "activityId": "ai-p07a-sampling",
+        "title": "Parâmetros de sampling e output control",
+        "part": 1,
+        "parts": 1,
+        "text": "Parâmetros de sampling e output control · etapa 1/1",
+        "provider": "Docs oficiais (OpenAI/Anthropic/Google)",
+        "url": "https://platform.openai.com/docs/guides/text-generation",
+        "hours": 8,
+        "description": "Temperature, top-k, top-p, max tokens, stop sequences, repetition/frequency/presence penalty, streaming e comportamento determinístico.",
+        "acceptance": "Benchmarks comparando configurações em tarefa do projeto-fio; documentar escolha com justificativa.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w197",
+    "sequence": 197,
+    "pillarId": "ai-p07a",
+    "pillarTitle": "Prompt engineering, context engineering e MCP",
+    "level": "intermediário",
+    "title": "Structured output e context engineering",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07a-structured-s01",
+        "activityId": "ai-p07a-structured",
+        "title": "Structured output e context engineering",
+        "part": 1,
+        "parts": 2,
+        "text": "Structured output e context engineering · etapa 1/2",
+        "provider": "Docs OpenAI + Anthropic + Google",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/context-windows",
+        "hours": 8,
+        "description": "JSON/XML/CSV tipado, system/role/contextual prompting, gestão de contexto: janela, compressão, isolamento, caching, compaction e falhas de contexto.",
+        "acceptance": "Schema estruturado com fallback em produção simulada; testes de regressão de prompt versionados.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w198",
+    "sequence": 198,
+    "pillarId": "ai-p07a",
+    "pillarTitle": "Prompt engineering, context engineering e MCP",
+    "level": "intermediário",
+    "title": "Structured output e context engineering",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07a-structured-s02",
+        "activityId": "ai-p07a-structured",
+        "title": "Structured output e context engineering",
+        "part": 2,
+        "parts": 2,
+        "text": "Structured output e context engineering · etapa 2/2",
+        "provider": "Docs OpenAI + Anthropic + Google",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/context-windows",
+        "hours": 4,
+        "description": "JSON/XML/CSV tipado, system/role/contextual prompting, gestão de contexto: janela, compressão, isolamento, caching, compaction e falhas de contexto.",
+        "acceptance": "Schema estruturado com fallback em produção simulada; testes de regressão de prompt versionados.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07a-caching-s01-p1",
+        "activityId": "ai-p07a-caching",
+        "title": "Prompt caching e otimização de tokens",
+        "part": 1,
+        "parts": 1,
+        "text": "Prompt caching e otimização de tokens · etapa 1/1",
+        "provider": "Anthropic + OpenAI docs",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+        "hours": 4,
+        "description": "Cache de prompt, cobrança por token, escolha de modelo, batching de requisições e otimização de custo por 1k decisões.",
+        "acceptance": "Benchmark antes/depois do caching com economia medida no projeto-fio.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w199",
+    "sequence": 199,
+    "pillarId": "ai-p07a",
+    "pillarTitle": "Prompt engineering, context engineering e MCP",
+    "level": "intermediário",
+    "title": "Prompt caching e otimização de tokens",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07a-caching-s01-p2",
+        "activityId": "ai-p07a-caching",
+        "title": "Prompt caching e otimização de tokens",
+        "part": 1,
+        "parts": 1,
+        "text": "Prompt caching e otimização de tokens · etapa 1/1",
+        "provider": "Anthropic + OpenAI docs",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+        "hours": 2,
+        "description": "Cache de prompt, cobrança por token, escolha de modelo, batching de requisições e otimização de custo por 1k decisões.",
+        "acceptance": "Benchmark antes/depois do caching com economia medida no projeto-fio.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07a-mcp-s01-p1",
+        "activityId": "ai-p07a-mcp",
+        "title": "Model Context Protocol (MCP)",
+        "part": 1,
+        "parts": 3,
+        "text": "Model Context Protocol (MCP) · etapa 1/3",
+        "provider": "Hugging Face MCP Course",
+        "url": "https://huggingface.co/learn/mcp-course/unit0/introduction",
+        "hours": 6,
+        "description": "MCP host, client e server; transporte, descoberta de ferramentas, permissões e segurança; integrar com o projeto-fio.",
+        "acceptance": "Servidor MCP próprio publicado com 2 ferramentas do projeto-fio, cliente conectado e testes de permissão.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w200",
+    "sequence": 200,
+    "pillarId": "ai-p07a",
+    "pillarTitle": "Prompt engineering, context engineering e MCP",
+    "level": "intermediário",
+    "title": "Model Context Protocol (MCP)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07a-mcp-s01-p2",
+        "activityId": "ai-p07a-mcp",
+        "title": "Model Context Protocol (MCP)",
+        "part": 1,
+        "parts": 3,
+        "text": "Model Context Protocol (MCP) · etapa 1/3",
+        "provider": "Hugging Face MCP Course",
+        "url": "https://huggingface.co/learn/mcp-course/unit0/introduction",
+        "hours": 2,
+        "description": "MCP host, client e server; transporte, descoberta de ferramentas, permissões e segurança; integrar com o projeto-fio.",
+        "acceptance": "Servidor MCP próprio publicado com 2 ferramentas do projeto-fio, cliente conectado e testes de permissão.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07a-mcp-s02-p1",
+        "activityId": "ai-p07a-mcp",
+        "title": "Model Context Protocol (MCP)",
+        "part": 2,
+        "parts": 3,
+        "text": "Model Context Protocol (MCP) · etapa 2/3",
+        "provider": "Hugging Face MCP Course",
+        "url": "https://huggingface.co/learn/mcp-course/unit0/introduction",
+        "hours": 6,
+        "description": "MCP host, client e server; transporte, descoberta de ferramentas, permissões e segurança; integrar com o projeto-fio.",
+        "acceptance": "Servidor MCP próprio publicado com 2 ferramentas do projeto-fio, cliente conectado e testes de permissão.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w201",
+    "sequence": 201,
+    "pillarId": "ai-p07a",
+    "pillarTitle": "Prompt engineering, context engineering e MCP",
+    "level": "intermediário",
+    "title": "Model Context Protocol (MCP)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07a-mcp-s02-p2",
+        "activityId": "ai-p07a-mcp",
+        "title": "Model Context Protocol (MCP)",
+        "part": 2,
+        "parts": 3,
+        "text": "Model Context Protocol (MCP) · etapa 2/3",
+        "provider": "Hugging Face MCP Course",
+        "url": "https://huggingface.co/learn/mcp-course/unit0/introduction",
+        "hours": 2,
+        "description": "MCP host, client e server; transporte, descoberta de ferramentas, permissões e segurança; integrar com o projeto-fio.",
+        "acceptance": "Servidor MCP próprio publicado com 2 ferramentas do projeto-fio, cliente conectado e testes de permissão.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07a-mcp-s03",
+        "activityId": "ai-p07a-mcp",
+        "title": "Model Context Protocol (MCP)",
+        "part": 3,
+        "parts": 3,
+        "text": "Model Context Protocol (MCP) · etapa 3/3",
+        "provider": "Hugging Face MCP Course",
+        "url": "https://huggingface.co/learn/mcp-course/unit0/introduction",
+        "hours": 4,
+        "description": "MCP host, client e server; transporte, descoberta de ferramentas, permissões e segurança; integrar com o projeto-fio.",
+        "acceptance": "Servidor MCP próprio publicado com 2 ferramentas do projeto-fio, cliente conectado e testes de permissão.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07a-closed-s01-p1",
+        "activityId": "ai-p07a-closed",
+        "title": "Prova fechada de prompting/contexto",
+        "part": 1,
+        "parts": 1,
+        "text": "Prova fechada de prompting/contexto · etapa 1/1",
+        "provider": "Projeto público próprio",
+        "url": "https://github.com/pedrogouveia001/decision-intelligence-ai",
+        "hours": 2,
+        "description": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita.",
+        "acceptance": "Código autoral + relatório de 3 melhorias de prompt medindo qualidade e custo.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w202",
+    "sequence": 202,
+    "pillarId": "ai-p07a",
+    "pillarTitle": "Prompt engineering, context engineering e MCP",
+    "level": "intermediário",
+    "title": "Prova fechada de prompting/contexto",
+    "totalHours": 4,
+    "tasks": [
+      {
+        "id": "ai-p07a-closed-s01-p2",
+        "activityId": "ai-p07a-closed",
+        "title": "Prova fechada de prompting/contexto",
+        "part": 1,
+        "parts": 1,
+        "text": "Prova fechada de prompting/contexto · etapa 1/1",
+        "provider": "Projeto público próprio",
+        "url": "https://github.com/pedrogouveia001/decision-intelligence-ai",
+        "hours": 4,
+        "description": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita.",
+        "acceptance": "Código autoral + relatório de 3 melhorias de prompt medindo qualidade e custo.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ],
+    "milestone": {
+      "title": "Prova mínima de prompting/contexto/MCP",
+      "evidence": "Biblioteca de prompts versionada, servidor MCP próprio, benchmarks de sampling/caching e defesa oral.",
+      "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+    }
+  },
+  {
+    "id": "ai-w203",
+    "sequence": 203,
+    "pillarId": "ai-p07b",
+    "pillarTitle": "Multimodal, modelos open-source e vector DBs",
+    "level": "avançado",
+    "title": "Multimodal: visão, imagem e áudio",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07b-multimodal-s01",
+        "activityId": "ai-p07b-multimodal",
+        "title": "Multimodal: visão, imagem e áudio",
+        "part": 1,
+        "parts": 3,
+        "text": "Multimodal: visão, imagem e áudio · etapa 1/3",
+        "provider": "Hugging Face + OpenAI/Anthropic/Google docs",
+        "url": "https://huggingface.co/learn/computer-vision-course/unit0/welcome",
+        "hours": 8,
+        "description": "Vision API, image understanding, image generation, Whisper (speech-to-text), TTS, casos de uso de imagem/vídeo/áudio e limites.",
+        "acceptance": "Pipeline multimodal no projeto-fio: 1 tarefa de visão + 1 de áudio, com avaliação e custo medidos.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w204",
+    "sequence": 204,
+    "pillarId": "ai-p07b",
+    "pillarTitle": "Multimodal, modelos open-source e vector DBs",
+    "level": "avançado",
+    "title": "Multimodal: visão, imagem e áudio",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07b-multimodal-s02",
+        "activityId": "ai-p07b-multimodal",
+        "title": "Multimodal: visão, imagem e áudio",
+        "part": 2,
+        "parts": 3,
+        "text": "Multimodal: visão, imagem e áudio · etapa 2/3",
+        "provider": "Hugging Face + OpenAI/Anthropic/Google docs",
+        "url": "https://huggingface.co/learn/computer-vision-course/unit0/welcome",
+        "hours": 8,
+        "description": "Vision API, image understanding, image generation, Whisper (speech-to-text), TTS, casos de uso de imagem/vídeo/áudio e limites.",
+        "acceptance": "Pipeline multimodal no projeto-fio: 1 tarefa de visão + 1 de áudio, com avaliação e custo medidos.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w205",
+    "sequence": 205,
+    "pillarId": "ai-p07b",
+    "pillarTitle": "Multimodal, modelos open-source e vector DBs",
+    "level": "avançado",
+    "title": "Multimodal: visão, imagem e áudio",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07b-multimodal-s03",
+        "activityId": "ai-p07b-multimodal",
+        "title": "Multimodal: visão, imagem e áudio",
+        "part": 3,
+        "parts": 3,
+        "text": "Multimodal: visão, imagem e áudio · etapa 3/3",
+        "provider": "Hugging Face + OpenAI/Anthropic/Google docs",
+        "url": "https://huggingface.co/learn/computer-vision-course/unit0/welcome",
+        "hours": 4,
+        "description": "Vision API, image understanding, image generation, Whisper (speech-to-text), TTS, casos de uso de imagem/vídeo/áudio e limites.",
+        "acceptance": "Pipeline multimodal no projeto-fio: 1 tarefa de visão + 1 de áudio, com avaliação e custo medidos.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07b-opensource-s01-p1",
+        "activityId": "ai-p07b-opensource",
+        "title": "Modelos open-source e self-hosted",
+        "part": 1,
+        "parts": 2,
+        "text": "Modelos open-source e self-hosted · etapa 1/2",
+        "provider": "Hugging Face Hub + Ollama",
+        "url": "https://ollama.com/docs",
+        "hours": 4,
+        "description": "Gemma, Qwen, Llama, Mistral; quantização (GGUF), escolha de modelo, inferência local com Ollama, custos zero vs API e trade-offs de qualidade.",
+        "acceptance": "Modelo aberto rodando localmente no projeto-fio; comparativo de qualidade/latência/custo vs API.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w206",
+    "sequence": 206,
+    "pillarId": "ai-p07b",
+    "pillarTitle": "Multimodal, modelos open-source e vector DBs",
+    "level": "avançado",
+    "title": "Modelos open-source e self-hosted",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07b-opensource-s01-p2",
+        "activityId": "ai-p07b-opensource",
+        "title": "Modelos open-source e self-hosted",
+        "part": 1,
+        "parts": 2,
+        "text": "Modelos open-source e self-hosted · etapa 1/2",
+        "provider": "Hugging Face Hub + Ollama",
+        "url": "https://ollama.com/docs",
+        "hours": 4,
+        "description": "Gemma, Qwen, Llama, Mistral; quantização (GGUF), escolha de modelo, inferência local com Ollama, custos zero vs API e trade-offs de qualidade.",
+        "acceptance": "Modelo aberto rodando localmente no projeto-fio; comparativo de qualidade/latência/custo vs API.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07b-opensource-s02-p1",
+        "activityId": "ai-p07b-opensource",
+        "title": "Modelos open-source e self-hosted",
+        "part": 2,
+        "parts": 2,
+        "text": "Modelos open-source e self-hosted · etapa 2/2",
+        "provider": "Hugging Face Hub + Ollama",
+        "url": "https://ollama.com/docs",
+        "hours": 4,
+        "description": "Gemma, Qwen, Llama, Mistral; quantização (GGUF), escolha de modelo, inferência local com Ollama, custos zero vs API e trade-offs de qualidade.",
+        "acceptance": "Modelo aberto rodando localmente no projeto-fio; comparativo de qualidade/latência/custo vs API.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w207",
+    "sequence": 207,
+    "pillarId": "ai-p07b",
+    "pillarTitle": "Multimodal, modelos open-source e vector DBs",
+    "level": "avançado",
+    "title": "Modelos open-source e self-hosted",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07b-opensource-s02-p2",
+        "activityId": "ai-p07b-opensource",
+        "title": "Modelos open-source e self-hosted",
+        "part": 2,
+        "parts": 2,
+        "text": "Modelos open-source e self-hosted · etapa 2/2",
+        "provider": "Hugging Face Hub + Ollama",
+        "url": "https://ollama.com/docs",
+        "hours": 4,
+        "description": "Gemma, Qwen, Llama, Mistral; quantização (GGUF), escolha de modelo, inferência local com Ollama, custos zero vs API e trade-offs de qualidade.",
+        "acceptance": "Modelo aberto rodando localmente no projeto-fio; comparativo de qualidade/latência/custo vs API.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07b-vector-db-s01-p1",
+        "activityId": "ai-p07b-vector-db",
+        "title": "Vector databases além de pgvector",
+        "part": 1,
+        "parts": 2,
+        "text": "Vector databases além de pgvector · etapa 1/2",
+        "provider": "Chroma, FAISS, Qdrant, Weaviate, LanceDB",
+        "url": "https://docs.trychroma.com/",
+        "hours": 4,
+        "description": "Comparar 2 alternativas além de pgvector: índice HNSW, filtros metadados, persistência, throughput e custo de memória.",
+        "acceptance": "Benchmark de recall/latência/memória em dataset do projeto-fio; ADR documentando escolha.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w208",
+    "sequence": 208,
+    "pillarId": "ai-p07b",
+    "pillarTitle": "Multimodal, modelos open-source e vector DBs",
+    "level": "avançado",
+    "title": "Vector databases além de pgvector",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07b-vector-db-s01-p2",
+        "activityId": "ai-p07b-vector-db",
+        "title": "Vector databases além de pgvector",
+        "part": 1,
+        "parts": 2,
+        "text": "Vector databases além de pgvector · etapa 1/2",
+        "provider": "Chroma, FAISS, Qdrant, Weaviate, LanceDB",
+        "url": "https://docs.trychroma.com/",
+        "hours": 4,
+        "description": "Comparar 2 alternativas além de pgvector: índice HNSW, filtros metadados, persistência, throughput e custo de memória.",
+        "acceptance": "Benchmark de recall/latência/memória em dataset do projeto-fio; ADR documentando escolha.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07b-vector-db-s02-p1",
+        "activityId": "ai-p07b-vector-db",
+        "title": "Vector databases além de pgvector",
+        "part": 2,
+        "parts": 2,
+        "text": "Vector databases além de pgvector · etapa 2/2",
+        "provider": "Chroma, FAISS, Qdrant, Weaviate, LanceDB",
+        "url": "https://docs.trychroma.com/",
+        "hours": 4,
+        "description": "Comparar 2 alternativas além de pgvector: índice HNSW, filtros metadados, persistência, throughput e custo de memória.",
+        "acceptance": "Benchmark de recall/latência/memória em dataset do projeto-fio; ADR documentando escolha.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w209",
+    "sequence": 209,
+    "pillarId": "ai-p07b",
+    "pillarTitle": "Multimodal, modelos open-source e vector DBs",
+    "level": "avançado",
+    "title": "Vector databases além de pgvector",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07b-vector-db-s02-p2",
+        "activityId": "ai-p07b-vector-db",
+        "title": "Vector databases além de pgvector",
+        "part": 2,
+        "parts": 2,
+        "text": "Vector databases além de pgvector · etapa 2/2",
+        "provider": "Chroma, FAISS, Qdrant, Weaviate, LanceDB",
+        "url": "https://docs.trychroma.com/",
+        "hours": 2,
+        "description": "Comparar 2 alternativas além de pgvector: índice HNSW, filtros metadados, persistência, throughput e custo de memória.",
+        "acceptance": "Benchmark de recall/latência/memória em dataset do projeto-fio; ADR documentando escolha.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07b-embeddings-s01-p1",
+        "activityId": "ai-p07b-embeddings",
+        "title": "Embedding models e reranking",
+        "part": 1,
+        "parts": 2,
+        "text": "Embedding models e reranking · etapa 1/2",
+        "provider": "Sentence Transformers + Cohere docs",
+        "url": "https://www.sbert.net/",
+        "hours": 6,
+        "description": "Sentence transformers, open-embeddings, Cohere/Gemini embedding, rerankers, matryoshka e distância/cosine.",
+        "acceptance": "Matriz comparativa de 4 embeddings no eval set do projeto-fio com custo e latência.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w210",
+    "sequence": 210,
+    "pillarId": "ai-p07b",
+    "pillarTitle": "Multimodal, modelos open-source e vector DBs",
+    "level": "avançado",
+    "title": "Embedding models e reranking",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07b-embeddings-s01-p2",
+        "activityId": "ai-p07b-embeddings",
+        "title": "Embedding models e reranking",
+        "part": 1,
+        "parts": 2,
+        "text": "Embedding models e reranking · etapa 1/2",
+        "provider": "Sentence Transformers + Cohere docs",
+        "url": "https://www.sbert.net/",
+        "hours": 2,
+        "description": "Sentence transformers, open-embeddings, Cohere/Gemini embedding, rerankers, matryoshka e distância/cosine.",
+        "acceptance": "Matriz comparativa de 4 embeddings no eval set do projeto-fio com custo e latência.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07b-embeddings-s02",
+        "activityId": "ai-p07b-embeddings",
+        "title": "Embedding models e reranking",
+        "part": 2,
+        "parts": 2,
+        "text": "Embedding models e reranking · etapa 2/2",
+        "provider": "Sentence Transformers + Cohere docs",
+        "url": "https://www.sbert.net/",
+        "hours": 4,
+        "description": "Sentence transformers, open-embeddings, Cohere/Gemini embedding, rerankers, matryoshka e distância/cosine.",
+        "acceptance": "Matriz comparativa de 4 embeddings no eval set do projeto-fio com custo e latência.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07b-closed-s01-p1",
+        "activityId": "ai-p07b-closed",
+        "title": "Prova fechada multimodal/open-source",
+        "part": 1,
+        "parts": 1,
+        "text": "Prova fechada multimodal/open-source · etapa 1/1",
+        "provider": "Projeto público próprio",
+        "url": "https://github.com/pedrogouveia001/decision-intelligence-ai",
+        "hours": 2,
+        "description": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita.",
+        "acceptance": "ADR atualizado e defesa oral de 15 min.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w211",
+    "sequence": 211,
+    "pillarId": "ai-p07b",
+    "pillarTitle": "Multimodal, modelos open-source e vector DBs",
+    "level": "avançado",
+    "title": "Prova fechada multimodal/open-source",
+    "totalHours": 4,
+    "tasks": [
+      {
+        "id": "ai-p07b-closed-s01-p2",
+        "activityId": "ai-p07b-closed",
+        "title": "Prova fechada multimodal/open-source",
+        "part": 1,
+        "parts": 1,
+        "text": "Prova fechada multimodal/open-source · etapa 1/1",
+        "provider": "Projeto público próprio",
+        "url": "https://github.com/pedrogouveia001/decision-intelligence-ai",
+        "hours": 4,
+        "description": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita.",
+        "acceptance": "ADR atualizado e defesa oral de 15 min.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ],
+    "milestone": {
+      "title": "Prova mínima de multimodal e open-source",
+      "evidence": "Pipeline multimodal no projeto, modelo aberto local rodando, benchmark de vector db e defesa.",
+      "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+    }
+  },
+  {
+    "id": "ai-w212",
+    "sequence": 212,
+    "pillarId": "ai-p07c",
+    "pillarTitle": "Explainable AI, RL e aprendizado não-supervisionado",
+    "level": "avançado",
+    "title": "Explainable AI: SHAP e LIME",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07c-xai-s01",
+        "activityId": "ai-p07c-xai",
+        "title": "Explainable AI: SHAP e LIME",
+        "part": 1,
+        "parts": 3,
+        "text": "Explainable AI: SHAP e LIME · etapa 1/3",
+        "provider": "SHAP docs + Interpretml",
+        "url": "https://shap.readthedocs.io/en/latest/",
+        "hours": 8,
+        "description": "SHAP values, LIME, feature importance, dependência, interação, explicação global vs local e limites.",
+        "acceptance": "Relatório de interpretabilidade em modelo do projeto-fio; explicar 5 decisões de um modelo tabular.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w213",
+    "sequence": 213,
+    "pillarId": "ai-p07c",
+    "pillarTitle": "Explainable AI, RL e aprendizado não-supervisionado",
+    "level": "avançado",
+    "title": "Explainable AI: SHAP e LIME",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07c-xai-s02",
+        "activityId": "ai-p07c-xai",
+        "title": "Explainable AI: SHAP e LIME",
+        "part": 2,
+        "parts": 3,
+        "text": "Explainable AI: SHAP e LIME · etapa 2/3",
+        "provider": "SHAP docs + Interpretml",
+        "url": "https://shap.readthedocs.io/en/latest/",
+        "hours": 8,
+        "description": "SHAP values, LIME, feature importance, dependência, interação, explicação global vs local e limites.",
+        "acceptance": "Relatório de interpretabilidade em modelo do projeto-fio; explicar 5 decisões de um modelo tabular.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w214",
+    "sequence": 214,
+    "pillarId": "ai-p07c",
+    "pillarTitle": "Explainable AI, RL e aprendizado não-supervisionado",
+    "level": "avançado",
+    "title": "Explainable AI: SHAP e LIME",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07c-xai-s03",
+        "activityId": "ai-p07c-xai",
+        "title": "Explainable AI: SHAP e LIME",
+        "part": 3,
+        "parts": 3,
+        "text": "Explainable AI: SHAP e LIME · etapa 3/3",
+        "provider": "SHAP docs + Interpretml",
+        "url": "https://shap.readthedocs.io/en/latest/",
+        "hours": 4,
+        "description": "SHAP values, LIME, feature importance, dependência, interação, explicação global vs local e limites.",
+        "acceptance": "Relatório de interpretabilidade em modelo do projeto-fio; explicar 5 decisões de um modelo tabular.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07c-xai-mcdm-s01-p1",
+        "activityId": "ai-p07c-xai-mcdm",
+        "title": "Ponte MCDM ↔ XAI",
+        "part": 1,
+        "parts": 2,
+        "text": "Ponte MCDM ↔ XAI · etapa 1/2",
+        "provider": "Projeto público próprio (sad-mcdm)",
+        "url": "https://github.com/sad-mcdm/sad-mcdm-lib",
+        "hours": 4,
+        "description": "Conectar pesos ROC/importância MCDM com SHAP; comparar explicações multicritério com explicações de ML.",
+        "acceptance": "Notebook público integrando um método MCDM (ex. PROMETHEE) com SHAP em dataset público.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w215",
+    "sequence": 215,
+    "pillarId": "ai-p07c",
+    "pillarTitle": "Explainable AI, RL e aprendizado não-supervisionado",
+    "level": "avançado",
+    "title": "Ponte MCDM ↔ XAI",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07c-xai-mcdm-s01-p2",
+        "activityId": "ai-p07c-xai-mcdm",
+        "title": "Ponte MCDM ↔ XAI",
+        "part": 1,
+        "parts": 2,
+        "text": "Ponte MCDM ↔ XAI · etapa 1/2",
+        "provider": "Projeto público próprio (sad-mcdm)",
+        "url": "https://github.com/sad-mcdm/sad-mcdm-lib",
+        "hours": 4,
+        "description": "Conectar pesos ROC/importância MCDM com SHAP; comparar explicações multicritério com explicações de ML.",
+        "acceptance": "Notebook público integrando um método MCDM (ex. PROMETHEE) com SHAP em dataset público.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07c-xai-mcdm-s02",
+        "activityId": "ai-p07c-xai-mcdm",
+        "title": "Ponte MCDM ↔ XAI",
+        "part": 2,
+        "parts": 2,
+        "text": "Ponte MCDM ↔ XAI · etapa 2/2",
+        "provider": "Projeto público próprio (sad-mcdm)",
+        "url": "https://github.com/sad-mcdm/sad-mcdm-lib",
+        "hours": 2,
+        "description": "Conectar pesos ROC/importância MCDM com SHAP; comparar explicações multicritério com explicações de ML.",
+        "acceptance": "Notebook público integrando um método MCDM (ex. PROMETHEE) com SHAP em dataset público.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07c-unsup-s01-p1",
+        "activityId": "ai-p07c-unsup",
+        "title": "Não-supervisionado aprofundado",
+        "part": 1,
+        "parts": 2,
+        "text": "Não-supervisionado aprofundado · etapa 1/2",
+        "provider": "scikit-learn oficial",
+        "url": "https://scikit-learn.org/stable/modules/clustering.html",
+        "hours": 2,
+        "description": "Clustering (k-means, DBSCAN, hierárquico), PCA, t-SNE, autoencoders e detecção de anomalia.",
+        "acceptance": "Duas análises exploratórias completas com escolha justificada de algoritmo.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w216",
+    "sequence": 216,
+    "pillarId": "ai-p07c",
+    "pillarTitle": "Explainable AI, RL e aprendizado não-supervisionado",
+    "level": "avançado",
+    "title": "Não-supervisionado aprofundado",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07c-unsup-s01-p2",
+        "activityId": "ai-p07c-unsup",
+        "title": "Não-supervisionado aprofundado",
+        "part": 1,
+        "parts": 2,
+        "text": "Não-supervisionado aprofundado · etapa 1/2",
+        "provider": "scikit-learn oficial",
+        "url": "https://scikit-learn.org/stable/modules/clustering.html",
+        "hours": 6,
+        "description": "Clustering (k-means, DBSCAN, hierárquico), PCA, t-SNE, autoencoders e detecção de anomalia.",
+        "acceptance": "Duas análises exploratórias completas com escolha justificada de algoritmo.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07c-unsup-s02-p1",
+        "activityId": "ai-p07c-unsup",
+        "title": "Não-supervisionado aprofundado",
+        "part": 2,
+        "parts": 2,
+        "text": "Não-supervisionado aprofundado · etapa 2/2",
+        "provider": "scikit-learn oficial",
+        "url": "https://scikit-learn.org/stable/modules/clustering.html",
+        "hours": 2,
+        "description": "Clustering (k-means, DBSCAN, hierárquico), PCA, t-SNE, autoencoders e detecção de anomalia.",
+        "acceptance": "Duas análises exploratórias completas com escolha justificada de algoritmo.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w217",
+    "sequence": 217,
+    "pillarId": "ai-p07c",
+    "pillarTitle": "Explainable AI, RL e aprendizado não-supervisionado",
+    "level": "avançado",
+    "title": "Não-supervisionado aprofundado",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07c-unsup-s02-p2",
+        "activityId": "ai-p07c-unsup",
+        "title": "Não-supervisionado aprofundado",
+        "part": 2,
+        "parts": 2,
+        "text": "Não-supervisionado aprofundado · etapa 2/2",
+        "provider": "scikit-learn oficial",
+        "url": "https://scikit-learn.org/stable/modules/clustering.html",
+        "hours": 2,
+        "description": "Clustering (k-means, DBSCAN, hierárquico), PCA, t-SNE, autoencoders e detecção de anomalia.",
+        "acceptance": "Duas análises exploratórias completas com escolha justificada de algoritmo.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07c-rl-s01-p1",
+        "activityId": "ai-p07c-rl",
+        "title": "Reinforcement learning básico",
+        "part": 1,
+        "parts": 2,
+        "text": "Reinforcement learning básico · etapa 1/2",
+        "provider": "OpenAI Gymnasium + PyTorch",
+        "url": "https://gymnasium.farama.org/",
+        "hours": 6,
+        "description": "Q-learning, DQN, policy gradient básico e actor-critic introdutório — nível roadmap ML, sem aprofundar em pesquisa.",
+        "acceptance": "Agente DQN treinado em ambiente simples com curva de aprendizado documentada.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w218",
+    "sequence": 218,
+    "pillarId": "ai-p07c",
+    "pillarTitle": "Explainable AI, RL e aprendizado não-supervisionado",
+    "level": "avançado",
+    "title": "Reinforcement learning básico",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p07c-rl-s01-p2",
+        "activityId": "ai-p07c-rl",
+        "title": "Reinforcement learning básico",
+        "part": 1,
+        "parts": 2,
+        "text": "Reinforcement learning básico · etapa 1/2",
+        "provider": "OpenAI Gymnasium + PyTorch",
+        "url": "https://gymnasium.farama.org/",
+        "hours": 2,
+        "description": "Q-learning, DQN, policy gradient básico e actor-critic introdutório — nível roadmap ML, sem aprofundar em pesquisa.",
+        "acceptance": "Agente DQN treinado em ambiente simples com curva de aprendizado documentada.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p07c-rl-s02",
+        "activityId": "ai-p07c-rl",
+        "title": "Reinforcement learning básico",
+        "part": 2,
+        "parts": 2,
+        "text": "Reinforcement learning básico · etapa 2/2",
+        "provider": "OpenAI Gymnasium + PyTorch",
+        "url": "https://gymnasium.farama.org/",
+        "hours": 6,
+        "description": "Q-learning, DQN, policy gradient básico e actor-critic introdutório — nível roadmap ML, sem aprofundar em pesquisa.",
+        "acceptance": "Agente DQN treinado em ambiente simples com curva de aprendizado documentada.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w219",
+    "sequence": 219,
+    "pillarId": "ai-p07c",
+    "pillarTitle": "Explainable AI, RL e aprendizado não-supervisionado",
+    "level": "avançado",
+    "title": "Prova fechada de XAI/RL",
+    "totalHours": 6,
+    "tasks": [
+      {
+        "id": "ai-p07c-closed-s01",
+        "activityId": "ai-p07c-closed",
+        "title": "Prova fechada de XAI/RL",
+        "part": 1,
+        "parts": 1,
+        "text": "Prova fechada de XAI/RL · etapa 1/1",
+        "provider": "Projeto público próprio",
+        "url": "https://github.com/pedrogouveia001/decision-intelligence-ai",
+        "hours": 6,
+        "description": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita.",
+        "acceptance": "Notebook autoral e defesa oral de 15 min.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ],
+    "milestone": {
+      "title": "Prova mínima de XAI e aprendizados avançados",
+      "evidence": "Relatório SHAP, integração MCDM↔XAI, análise não-supervisionada e agente RL básico documentados.",
+      "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+    }
+  },
+  {
+    "id": "ai-w220",
+    "sequence": 220,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "Estruturas de dados e algoritmos aplicados a ML",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-dsa-core-s01",
+        "activityId": "ai-p13-dsa-core",
+        "title": "Estruturas de dados e algoritmos aplicados a ML",
+        "part": 1,
+        "parts": 5,
+        "text": "Estruturas de dados e algoritmos aplicados a ML · etapa 1/5",
+        "provider": "LeetCode (trilha ML-adjacente) + NeetCode",
+        "url": "https://neetcode.io/practice",
+        "hours": 8,
+        "description": "Arrays, hashmaps, heap, árvore, grafo, DP e complexidade — foco em problemas que aparecem em sistemas de ML (batching, top-k, janela deslizante, deduplicação).",
+        "acceptance": "60 problemas resolvidos sem IA; 15 deles com notebook explicando a relação com um problema real de ML (ex.: top-k retrieval, sliding window em streaming).",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w221",
+    "sequence": 221,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "Estruturas de dados e algoritmos aplicados a ML",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-dsa-core-s02",
+        "activityId": "ai-p13-dsa-core",
+        "title": "Estruturas de dados e algoritmos aplicados a ML",
+        "part": 2,
+        "parts": 5,
+        "text": "Estruturas de dados e algoritmos aplicados a ML · etapa 2/5",
+        "provider": "LeetCode (trilha ML-adjacente) + NeetCode",
+        "url": "https://neetcode.io/practice",
+        "hours": 8,
+        "description": "Arrays, hashmaps, heap, árvore, grafo, DP e complexidade — foco em problemas que aparecem em sistemas de ML (batching, top-k, janela deslizante, deduplicação).",
+        "acceptance": "60 problemas resolvidos sem IA; 15 deles com notebook explicando a relação com um problema real de ML (ex.: top-k retrieval, sliding window em streaming).",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w222",
+    "sequence": 222,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "Estruturas de dados e algoritmos aplicados a ML",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-dsa-core-s03",
+        "activityId": "ai-p13-dsa-core",
+        "title": "Estruturas de dados e algoritmos aplicados a ML",
+        "part": 3,
+        "parts": 5,
+        "text": "Estruturas de dados e algoritmos aplicados a ML · etapa 3/5",
+        "provider": "LeetCode (trilha ML-adjacente) + NeetCode",
+        "url": "https://neetcode.io/practice",
+        "hours": 8,
+        "description": "Arrays, hashmaps, heap, árvore, grafo, DP e complexidade — foco em problemas que aparecem em sistemas de ML (batching, top-k, janela deslizante, deduplicação).",
+        "acceptance": "60 problemas resolvidos sem IA; 15 deles com notebook explicando a relação com um problema real de ML (ex.: top-k retrieval, sliding window em streaming).",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w223",
+    "sequence": 223,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "Estruturas de dados e algoritmos aplicados a ML",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-dsa-core-s04",
+        "activityId": "ai-p13-dsa-core",
+        "title": "Estruturas de dados e algoritmos aplicados a ML",
+        "part": 4,
+        "parts": 5,
+        "text": "Estruturas de dados e algoritmos aplicados a ML · etapa 4/5",
+        "provider": "LeetCode (trilha ML-adjacente) + NeetCode",
+        "url": "https://neetcode.io/practice",
+        "hours": 8,
+        "description": "Arrays, hashmaps, heap, árvore, grafo, DP e complexidade — foco em problemas que aparecem em sistemas de ML (batching, top-k, janela deslizante, deduplicação).",
+        "acceptance": "60 problemas resolvidos sem IA; 15 deles com notebook explicando a relação com um problema real de ML (ex.: top-k retrieval, sliding window em streaming).",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w224",
+    "sequence": 224,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "Estruturas de dados e algoritmos aplicados a ML",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-dsa-core-s05",
+        "activityId": "ai-p13-dsa-core",
+        "title": "Estruturas de dados e algoritmos aplicados a ML",
+        "part": 5,
+        "parts": 5,
+        "text": "Estruturas de dados e algoritmos aplicados a ML · etapa 5/5",
+        "provider": "LeetCode (trilha ML-adjacente) + NeetCode",
+        "url": "https://neetcode.io/practice",
+        "hours": 8,
+        "description": "Arrays, hashmaps, heap, árvore, grafo, DP e complexidade — foco em problemas que aparecem em sistemas de ML (batching, top-k, janela deslizante, deduplicação).",
+        "acceptance": "60 problemas resolvidos sem IA; 15 deles com notebook explicando a relação com um problema real de ML (ex.: top-k retrieval, sliding window em streaming).",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w225",
+    "sequence": 225,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "Concorrência e paralelismo em Python",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-concurrency-s01",
+        "activityId": "ai-p13-concurrency",
+        "title": "Concorrência e paralelismo em Python",
+        "part": 1,
+        "parts": 3,
+        "text": "Concorrência e paralelismo em Python · etapa 1/3",
+        "provider": "Docs oficiais Python (asyncio, threading, multiprocessing)",
+        "url": "https://docs.python.org/3/library/asyncio.html",
+        "hours": 8,
+        "description": "GIL, asyncio, thread pool, process pool, filas, lock/semáforo, race conditions — essencial para serving de modelos e pipelines de dados.",
+        "acceptance": "Implementar um worker pool que processa batch de inferência com backpressure; benchmark e explicação de quando usar async vs threads vs processos.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w226",
+    "sequence": 226,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "Concorrência e paralelismo em Python",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-concurrency-s02",
+        "activityId": "ai-p13-concurrency",
+        "title": "Concorrência e paralelismo em Python",
+        "part": 2,
+        "parts": 3,
+        "text": "Concorrência e paralelismo em Python · etapa 2/3",
+        "provider": "Docs oficiais Python (asyncio, threading, multiprocessing)",
+        "url": "https://docs.python.org/3/library/asyncio.html",
+        "hours": 8,
+        "description": "GIL, asyncio, thread pool, process pool, filas, lock/semáforo, race conditions — essencial para serving de modelos e pipelines de dados.",
+        "acceptance": "Implementar um worker pool que processa batch de inferência com backpressure; benchmark e explicação de quando usar async vs threads vs processos.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w227",
+    "sequence": 227,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "Concorrência e paralelismo em Python",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-concurrency-s03",
+        "activityId": "ai-p13-concurrency",
+        "title": "Concorrência e paralelismo em Python",
+        "part": 3,
+        "parts": 3,
+        "text": "Concorrência e paralelismo em Python · etapa 3/3",
+        "provider": "Docs oficiais Python (asyncio, threading, multiprocessing)",
+        "url": "https://docs.python.org/3/library/asyncio.html",
+        "hours": 8,
+        "description": "GIL, asyncio, thread pool, process pool, filas, lock/semáforo, race conditions — essencial para serving de modelos e pipelines de dados.",
+        "acceptance": "Implementar um worker pool que processa batch de inferência com backpressure; benchmark e explicação de quando usar async vs threads vs processos.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w228",
+    "sequence": 228,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "System design de sistemas de IA",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-system-design-s01",
+        "activityId": "ai-p13-system-design",
+        "title": "System design de sistemas de IA",
+        "part": 1,
+        "parts": 4,
+        "text": "System design de sistemas de IA · etapa 1/4",
+        "provider": "Roadmap.sh System Design + padrões de inferência",
+        "url": "https://roadmap.sh/system-design",
+        "hours": 8,
+        "description": "Arquitetura de inferência online: roteamento, batching dinâmico, cache de embedding e resposta, fallback, rate limit, multi-modelo, multi-região e degradação.",
+        "acceptance": "Desenho de arquitetura (diagrama + ADR) de um sistema de inferência em produção, publicado no projeto-fio e defendido por 20 min.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w229",
+    "sequence": 229,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "System design de sistemas de IA",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-system-design-s02",
+        "activityId": "ai-p13-system-design",
+        "title": "System design de sistemas de IA",
+        "part": 2,
+        "parts": 4,
+        "text": "System design de sistemas de IA · etapa 2/4",
+        "provider": "Roadmap.sh System Design + padrões de inferência",
+        "url": "https://roadmap.sh/system-design",
+        "hours": 8,
+        "description": "Arquitetura de inferência online: roteamento, batching dinâmico, cache de embedding e resposta, fallback, rate limit, multi-modelo, multi-região e degradação.",
+        "acceptance": "Desenho de arquitetura (diagrama + ADR) de um sistema de inferência em produção, publicado no projeto-fio e defendido por 20 min.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w230",
+    "sequence": 230,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "System design de sistemas de IA",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-system-design-s03",
+        "activityId": "ai-p13-system-design",
+        "title": "System design de sistemas de IA",
+        "part": 3,
+        "parts": 4,
+        "text": "System design de sistemas de IA · etapa 3/4",
+        "provider": "Roadmap.sh System Design + padrões de inferência",
+        "url": "https://roadmap.sh/system-design",
+        "hours": 8,
+        "description": "Arquitetura de inferência online: roteamento, batching dinâmico, cache de embedding e resposta, fallback, rate limit, multi-modelo, multi-região e degradação.",
+        "acceptance": "Desenho de arquitetura (diagrama + ADR) de um sistema de inferência em produção, publicado no projeto-fio e defendido por 20 min.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w231",
+    "sequence": 231,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "System design de sistemas de IA",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p13-system-design-s04",
+        "activityId": "ai-p13-system-design",
+        "title": "System design de sistemas de IA",
+        "part": 4,
+        "parts": 4,
+        "text": "System design de sistemas de IA · etapa 4/4",
+        "provider": "Roadmap.sh System Design + padrões de inferência",
+        "url": "https://roadmap.sh/system-design",
+        "hours": 4,
+        "description": "Arquitetura de inferência online: roteamento, batching dinâmico, cache de embedding e resposta, fallback, rate limit, multi-modelo, multi-região e degradação.",
+        "acceptance": "Desenho de arquitetura (diagrama + ADR) de um sistema de inferência em produção, publicado no projeto-fio e defendido por 20 min.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p13-closed-s01-p1",
+        "activityId": "ai-p13-closed",
+        "title": "Prova fechada de DSA e system design",
+        "part": 1,
+        "parts": 1,
+        "text": "Prova fechada de DSA e system design · etapa 1/1",
+        "provider": "Projeto público próprio",
+        "url": "https://github.com/pedrogouveia001/decision-intelligence-ai",
+        "hours": 4,
+        "description": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita.",
+        "acceptance": "Código autoral, análise de complexidade e defesa oral de 20 min.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w232",
+    "sequence": 232,
+    "pillarId": "ai-p13",
+    "pillarTitle": "DSA e engenharia de sistemas para IA",
+    "level": "intermediário → avançado",
+    "title": "Prova fechada de DSA e system design",
+    "totalHours": 4,
+    "tasks": [
+      {
+        "id": "ai-p13-closed-s01-p2",
+        "activityId": "ai-p13-closed",
+        "title": "Prova fechada de DSA e system design",
+        "part": 1,
+        "parts": 1,
+        "text": "Prova fechada de DSA e system design · etapa 1/1",
+        "provider": "Projeto público próprio",
+        "url": "https://github.com/pedrogouveia001/decision-intelligence-ai",
+        "hours": 4,
+        "description": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita.",
+        "acceptance": "Código autoral, análise de complexidade e defesa oral de 20 min.",
+        "kind": "prática",
+        "completed": false,
+        "formationId": null
+      }
+    ],
+    "milestone": {
+      "title": "Prova mínima de base de engenharia para entrevista de IA",
+      "evidence": "60 problemas de algoritmos, worker pool implementado, desenho de arquitetura de inferência e defesa oral.",
+      "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+    }
+  },
+  {
+    "id": "ai-w233",
+    "sequence": 233,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "AWS Certified AI Practitioner (AIF-C01)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-aws-aif-s01",
+        "activityId": "ai-p14-aws-aif",
+        "title": "AWS Certified AI Practitioner (AIF-C01)",
+        "part": 1,
+        "parts": 3,
+        "text": "AWS Certified AI Practitioner (AIF-C01) · etapa 1/3",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+        "hours": 8,
+        "description": "Exame foundational de IA/ML/GenAI na AWS (US$100, 65 questões, 90 min). Cobre fundamentos de IA/ML, GenAI, foundation models, responsible AI e segurança/governança. Vale como vocabulário e porta de entrada; não é o exame de engenharia.",
+        "acceptance": "Simulados ≥85% consistente; exame agendado e aprovado.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w234",
+    "sequence": 234,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "AWS Certified AI Practitioner (AIF-C01)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-aws-aif-s02",
+        "activityId": "ai-p14-aws-aif",
+        "title": "AWS Certified AI Practitioner (AIF-C01)",
+        "part": 2,
+        "parts": 3,
+        "text": "AWS Certified AI Practitioner (AIF-C01) · etapa 2/3",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+        "hours": 8,
+        "description": "Exame foundational de IA/ML/GenAI na AWS (US$100, 65 questões, 90 min). Cobre fundamentos de IA/ML, GenAI, foundation models, responsible AI e segurança/governança. Vale como vocabulário e porta de entrada; não é o exame de engenharia.",
+        "acceptance": "Simulados ≥85% consistente; exame agendado e aprovado.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w235",
+    "sequence": 235,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "AWS Certified AI Practitioner (AIF-C01)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-aws-aif-s03",
+        "activityId": "ai-p14-aws-aif",
+        "title": "AWS Certified AI Practitioner (AIF-C01)",
+        "part": 3,
+        "parts": 3,
+        "text": "AWS Certified AI Practitioner (AIF-C01) · etapa 3/3",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+        "hours": 4,
+        "description": "Exame foundational de IA/ML/GenAI na AWS (US$100, 65 questões, 90 min). Cobre fundamentos de IA/ML, GenAI, foundation models, responsible AI e segurança/governança. Vale como vocabulário e porta de entrada; não é o exame de engenharia.",
+        "acceptance": "Simulados ≥85% consistente; exame agendado e aprovado.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-aws-mla-s01-p1",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 1,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 1/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w236",
+    "sequence": 236,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-aws-mla-s01-p2",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 1,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 1/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-aws-mla-s02-p1",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 2,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 2/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w237",
+    "sequence": 237,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-aws-mla-s02-p2",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 2,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 2/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-aws-mla-s03-p1",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 3,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 3/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w238",
+    "sequence": 238,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-aws-mla-s03-p2",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 3,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 3/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-aws-mla-s04-p1",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 4,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 4/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w239",
+    "sequence": 239,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-aws-mla-s04-p2",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 4,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 4/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-aws-mla-s05-p1",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 5,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 5/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w240",
+    "sequence": 240,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-aws-mla-s05-p2",
+        "activityId": "ai-p14-aws-mla",
+        "title": "AWS Certified Machine Learning Engineer – Associate (MLA-C02)",
+        "part": 5,
+        "parts": 5,
+        "text": "AWS Certified Machine Learning Engineer – Associate (MLA-C02) · etapa 5/5",
+        "provider": "AWS Certification",
+        "url": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/",
+        "hours": 4,
+        "description": "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+        "acceptance": "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-gcp-pmle-s01-p1",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 1,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 1/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w241",
+    "sequence": 241,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-gcp-pmle-s01-p2",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 1,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 1/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-gcp-pmle-s02-p1",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 2,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 2/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w242",
+    "sequence": 242,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-gcp-pmle-s02-p2",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 2,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 2/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-gcp-pmle-s03-p1",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 3,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 3/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w243",
+    "sequence": 243,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-gcp-pmle-s03-p2",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 3,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 3/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-gcp-pmle-s04-p1",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 4,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 4/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w244",
+    "sequence": 244,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-gcp-pmle-s04-p2",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 4,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 4/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-gcp-pmle-s05-p1",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 5,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 5/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w245",
+    "sequence": 245,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-gcp-pmle-s05-p2",
+        "activityId": "ai-p14-gcp-pmle",
+        "title": "Google Cloud Professional Machine Learning Engineer (PMLE)",
+        "part": 5,
+        "parts": 5,
+        "text": "Google Cloud Professional Machine Learning Engineer (PMLE) · etapa 5/5",
+        "provider": "Google Cloud Certification",
+        "url": "https://cloud.google.com/learn/certification/machine-learning-engineer",
+        "hours": 4,
+        "description": "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-nvidia-aiio-s01-p1",
+        "activityId": "ai-p14-nvidia-aiio",
+        "title": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO)",
+        "part": 1,
+        "parts": 2,
+        "text": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO) · etapa 1/2",
+        "provider": "NVIDIA Certification",
+        "url": "https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/",
+        "hours": 4,
+        "description": "Exame associate de infraestrutura de IA (US$125, 50 questões, 60 min). Cobre GPU, accelerated computing, networking, data center e operação de workloads de IA. Diferencial raro para quem quer atuar perto de infraestrutura/inferência de modelos; opcional se o foco for aplicado.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w246",
+    "sequence": 246,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO)",
+    "totalHours": 8,
+    "tasks": [
+      {
+        "id": "ai-p14-nvidia-aiio-s01-p2",
+        "activityId": "ai-p14-nvidia-aiio",
+        "title": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO)",
+        "part": 1,
+        "parts": 2,
+        "text": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO) · etapa 1/2",
+        "provider": "NVIDIA Certification",
+        "url": "https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/",
+        "hours": 4,
+        "description": "Exame associate de infraestrutura de IA (US$125, 50 questões, 60 min). Cobre GPU, accelerated computing, networking, data center e operação de workloads de IA. Diferencial raro para quem quer atuar perto de infraestrutura/inferência de modelos; opcional se o foco for aplicado.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      },
+      {
+        "id": "ai-p14-nvidia-aiio-s02-p1",
+        "activityId": "ai-p14-nvidia-aiio",
+        "title": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO)",
+        "part": 2,
+        "parts": 2,
+        "text": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO) · etapa 2/2",
+        "provider": "NVIDIA Certification",
+        "url": "https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/",
+        "hours": 4,
+        "description": "Exame associate de infraestrutura de IA (US$125, 50 questões, 60 min). Cobre GPU, accelerated computing, networking, data center e operação de workloads de IA. Diferencial raro para quem quer atuar perto de infraestrutura/inferência de modelos; opcional se o foco for aplicado.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ]
+  },
+  {
+    "id": "ai-w247",
+    "sequence": 247,
+    "pillarId": "ai-p14",
+    "pillarTitle": "Certificações oficiais de IA e cloud",
+    "level": "avançado",
+    "title": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO)",
+    "totalHours": 4,
+    "tasks": [
+      {
+        "id": "ai-p14-nvidia-aiio-s02-p2",
+        "activityId": "ai-p14-nvidia-aiio",
+        "title": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO)",
+        "part": 2,
+        "parts": 2,
+        "text": "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO) · etapa 2/2",
+        "provider": "NVIDIA Certification",
+        "url": "https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/",
+        "hours": 4,
+        "description": "Exame associate de infraestrutura de IA (US$125, 50 questões, 60 min). Cobre GPU, accelerated computing, networking, data center e operação de workloads de IA. Diferencial raro para quem quer atuar perto de infraestrutura/inferência de modelos; opcional se o foco for aplicado.",
+        "acceptance": "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+        "kind": "certificação",
+        "completed": false,
+        "formationId": null
+      }
+    ],
+    "milestone": {
+      "title": "Prova mínima de credencial de IA reconhecida de mercado",
+      "evidence": "Pelo menos AWS MLA-C02 ou Google PMLE aprovado; AIF-C01 e NCA-AIIO como complementos opcionais.",
       "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
     }
   }

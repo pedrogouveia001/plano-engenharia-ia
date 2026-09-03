@@ -5,12 +5,12 @@
   "defaultStartDate": "2026-09-07",
   "defaultWeeklyHours": 8,
   "storageKey": "ai_engineering_transition_v1",
-  "totalHours": 1451,
+  "totalHours": 1945,
   "completedHours": 145,
-  "remainingHours": 1306,
-  "totalWeeks": 183,
-  "pillarCount": 12,
-  "milestoneCount": 6,
+  "remainingHours": 1800,
+  "totalWeeks": 247,
+  "pillarCount": 17,
+  "milestoneCount": 11,
   "formationHours": 632,
   "formations": [
     {
@@ -186,8 +186,8 @@
       "title": "MLOps, serving e monitoramento",
       "level": "avançado",
       "goal": "Operar o ciclo de vida de modelos com CI/CD, métricas, drift e rollback.",
-      "hours": 184,
-      "weeks": 23,
+      "hours": 264,
+      "weeks": 33,
       "milestone": {
         "title": "Prova mínima para candidatar-se a ML Engineer júnior",
         "evidence": "Pipeline versionado, registry, serving, monitoramento, CI/CD e rollback demonstrados.",
@@ -204,6 +204,71 @@
       "milestone": {
         "title": "Prova mínima para candidatar-se a AI Engineer aplicado / ML Engineer",
         "evidence": "Capstone público operável com dados seguros, avaliação, observabilidade, segurança, custo e rollback.",
+        "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+      }
+    },
+    {
+      "id": "ai-p07a",
+      "title": "Prompt engineering, context engineering e MCP",
+      "level": "intermediário",
+      "goal": "Dominar prompting sistemático, gestão de contexto e o protocolo MCP — requisitos explícitos dos roadmaps AI Engineer e AI Agents.",
+      "hours": 68,
+      "weeks": 9,
+      "milestone": {
+        "title": "Prova mínima de prompting/contexto/MCP",
+        "evidence": "Biblioteca de prompts versionada, servidor MCP próprio, benchmarks de sampling/caching e defesa oral.",
+        "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+      }
+    },
+    {
+      "id": "ai-p07b",
+      "title": "Multimodal, modelos open-source e vector DBs",
+      "level": "avançado",
+      "goal": "Estender para além de texto puro e rodar modelos abertos localmente — requisitos dos roadmaps AI Engineer e AI Agents.",
+      "hours": 68,
+      "weeks": 9,
+      "milestone": {
+        "title": "Prova mínima de multimodal e open-source",
+        "evidence": "Pipeline multimodal no projeto, modelo aberto local rodando, benchmark de vector db e defesa.",
+        "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+      }
+    },
+    {
+      "id": "ai-p07c",
+      "title": "Explainable AI, RL e aprendizado não-supervisionado",
+      "level": "avançado",
+      "goal": "Complementos do roadmap Machine Learning: interpretabilidade (SHAP/LIME — ponte direta com seu MCDM), RL básico e não-supervisionado aprofundado.",
+      "hours": 62,
+      "weeks": 8,
+      "milestone": {
+        "title": "Prova mínima de XAI e aprendizados avançados",
+        "evidence": "Relatório SHAP, integração MCDM↔XAI, análise não-supervisionada e agente RL básico documentados.",
+        "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+      }
+    },
+    {
+      "id": "ai-p13",
+      "title": "DSA e engenharia de sistemas para IA",
+      "level": "intermediário → avançado",
+      "goal": "Estruturas de dados, complexidade, concorrência e system design de inferência — base para PyTorch internals, batching/streaming e entrevista técnica de IA.",
+      "hours": 100,
+      "weeks": 13,
+      "milestone": {
+        "title": "Prova mínima de base de engenharia para entrevista de IA",
+        "evidence": "60 problemas de algoritmos, worker pool implementado, desenho de arquitetura de inferência e defesa oral.",
+        "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
+      }
+    },
+    {
+      "id": "ai-p14",
+      "title": "Certificações oficiais de IA e cloud",
+      "level": "avançado",
+      "goal": "Credenciais reconhecidas de mercado (AWS, Google Cloud, NVIDIA) após prática real — certificado sem projeto não sustenta entrevista, então cada exame vem depois da prática correspondente.",
+      "hours": 116,
+      "weeks": 15,
+      "milestone": {
+        "title": "Prova mínima de credencial de IA reconhecida de mercado",
+        "evidence": "Pelo menos AWS MLA-C02 ou Google PMLE aprovado; AIF-C01 e NCA-AIIO como complementos opcionais.",
         "closedProof": "Prova fechada sem IA: primeira tentativa e depuração próprias, sem chat, Copilot ou geração; commit somente após concluir. Depois do commit, usar IA para revisão registrada. Defender por 20–30 min, reimplementar um núcleo e diagnosticar uma falha inédita."
       }
     }

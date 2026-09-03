@@ -7,7 +7,8 @@ Site público: <https://pedrogouveia001.github.io/plano-engenharia-ia/>
 ## O que é
 
 - **Diagnóstico honesto** do perfil (58 repos GitHub, currículo, LinkedIn), classificando competências como forte / em desenvolvimento / não comprovada.
-- **Plano de 12 pilares, 183 semanas, 1.451h** (145h já concluídas em CS50x+CS50P), com 6 marcos de empregabilidade.
+- **Plano de 17 pilares, 247 semanas, 1.945h** (145h já concluídas em CS50x+CS50P), com 11 marcos de empregabilidade.
+- **Baseado em roadmaps.sh** (AI Engineer, Machine Learning, MLOps, Prompt Engineering, AI Agents) + pesquisa de vagas reais de IA 2026.
 - **6 formações Coursera integrais** (Python 3 Programming, Mathematics for ML, Machine Learning, Deep Learning, Generative AI Engineering with LLMs, MLOps Duke) — nunca curso avulso, nunca módulo pulado.
 - **Política de autonomia:** cada marco exige uma prova fechada **sem IA** + defesa oral.
 - **Projeto-fio público:** `decision-intelligence-ai`, com dados públicos/sintéticos apenas.

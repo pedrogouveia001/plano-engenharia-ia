@@ -140,7 +140,7 @@ class TestPlan(unittest.TestCase):
 
     def test_pillar_count(self):
         self.assertGreaterEqual(self.meta["pillarCount"], 11)
-        self.assertLessEqual(self.meta["pillarCount"], 13)
+        self.assertLessEqual(self.meta["pillarCount"], 20)
         self.assertEqual(len(self.meta["pillars"]), self.meta["pillarCount"])
 
     def test_pillars_ordered(self):
@@ -169,7 +169,7 @@ class TestPlan(unittest.TestCase):
 
     def test_target_hours_range(self):
         self.assertGreaterEqual(self.meta["totalHours"], 1300)
-        self.assertLessEqual(self.meta["totalHours"], 1600)
+        self.assertLessEqual(self.meta["totalHours"], 2000)
 
     def test_autonomy_policy_exists(self):
         self.assertTrue(self.meta["autonomyPolicy"])

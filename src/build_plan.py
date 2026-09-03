@@ -19,7 +19,7 @@ REFERENCE_DATE = "2026-09-03"
 DEFAULT_START_DATE = "2026-09-07"
 DEFAULT_WEEKLY_HOURS = 8
 STORAGE_KEY = "ai_engineering_transition_v1"
-EXPECTED_TOTAL_HOURS = 1451
+EXPECTED_TOTAL_HOURS = 1945
 
 
 def activity(
@@ -495,6 +495,43 @@ PILLARS: list[dict[str, Any]] = [
                 "DevOps, plataformas de ML, modelos em produção e MLOps aplicado.",
             ),
             activity(
+                "ai-p11-orchestration", "Orquestração de pipelines (Airflow)", "Apache Airflow docs",
+                "https://airflow.apache.org/docs/", 16,
+                "DAGs, schedules, sensors, XCom, backfill, retries e alertas — orquestração de pipelines de dados/ML.",
+                "DAG que roda ingestão + treino + eval em 3 etapas, com retry e alerta documentados.",
+            ),
+            activity(
+                "ai-p11-streaming", "Kafka e streaming de dados", "Confluent + Kafka docs",
+                "https://kafka.apache.org/documentation/", 14,
+                "Topics, partitions, consumer groups, streaming de eventos de inferência, DLQ e exatamente-once.",
+                "Consumer Kafka que processa eventos de inferência com idempotência; cenário de falha documentado.",
+            ),
+            activity(
+                "ai-p11-k8s", "Kubernetes para ML", "Kubernetes docs + kubectl",
+                "https://kubernetes.io/docs/home/", 20,
+                "Pods, deployments, services, probes, HPA, GPU scheduling básico e rodando um modelo de inferência.",
+                "Serviço de inferência no K8s local (kind/minikube) com HPA e rollout observado.",
+            ),
+            activity(
+                "ai-p11-iac", "Infra como código (Terraform)", "Terraform docs",
+                "https://developer.hashicorp.com/terraform/docs", 12,
+                "Providers, state, variables, outputs, plan/apply, drift e módulos reutilizáveis.",
+                "Infra do projeto-fio provisionada por Terraform; destruída e recriada reproduzindo o mesmo estado.",
+            ),
+            activity(
+                "ai-p11-prometheus", "Monitoring: Prometheus e Grafana", "Prometheus + Grafana docs",
+                "https://prometheus.io/docs/introduction/overview/", 12,
+                "Métricas customizadas, alertas, dashboards, histogramas de latência e SLIs/SLOs de inferência.",
+                "Dashboard Grafana do projeto-fio com 5 métricas (incluindo custo por 1k inferências).",
+            ),
+            activity(
+                "ai-p11-edge", "Edge AI e servindo modelos em dispositivos (opcional)", "TFLite + ONNX Runtime",
+                "https://onnxruntime.ai/", 6,
+                "Quantização, ONNX export, TFLite/PyTorch Mobile e inferência em CPU — quando vale a pena.",
+                "Modelo do projeto-fio exportado para ONNX e inferindo 2x mais rápido no CPU local.",
+                kind="prática opcional",
+            ),
+            activity(
                 "ai-p11-mlflow", "Tracking e registry", "MLflow oficial",
                 "https://mlflow.org/docs/latest/", 10,
                 "Experimentos, artefatos, lineage, registry e promoção.",
@@ -577,6 +614,210 @@ PILLARS: list[dict[str, Any]] = [
             "closedProof": AUTONOMY,
         },
     },
+    {
+        "id": "ai-p07a", "title": "Prompt engineering, context engineering e MCP",
+        "level": "intermediário",
+        "goal": "Dominar prompting sistemático, gestão de contexto e o protocolo MCP — requisitos explícitos dos roadmaps AI Engineer e AI Agents.",
+        "activities": [
+            activity(
+                "ai-p07a-prompting", "Prompt engineering sistemático", "roadmap.sh Prompt Engineering",
+                "https://roadmap.sh/prompt-engineering", 16,
+                "Zero/few-shot, CoT, ToT, ReAct, self-consistency, step-back, prompt tuning, debiasing, ensembling, calibração de confiabilidade e melhoria de precisão.",
+                "10 técnicas aplicadas ao projeto-fio com comparativo antes/depois documentado.",
+            ),
+            activity(
+                "ai-p07a-sampling", "Parâmetros de sampling e output control", "Docs oficiais (OpenAI/Anthropic/Google)",
+                "https://platform.openai.com/docs/guides/text-generation", 8,
+                "Temperature, top-k, top-p, max tokens, stop sequences, repetition/frequency/presence penalty, streaming e comportamento determinístico.",
+                "Benchmarks comparando configurações em tarefa do projeto-fio; documentar escolha com justificativa.",
+            ),
+            activity(
+                "ai-p07a-structured", "Structured output e context engineering", "Docs OpenAI + Anthropic + Google",
+                "https://docs.anthropic.com/en/docs/build-with-claude/context-windows", 12,
+                "JSON/XML/CSV tipado, system/role/contextual prompting, gestão de contexto: janela, compressão, isolamento, caching, compaction e falhas de contexto.",
+                "Schema estruturado com fallback em produção simulada; testes de regressão de prompt versionados.",
+            ),
+            activity(
+                "ai-p07a-caching", "Prompt caching e otimização de tokens", "Anthropic + OpenAI docs",
+                "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching", 6,
+                "Cache de prompt, cobrança por token, escolha de modelo, batching de requisições e otimização de custo por 1k decisões.",
+                "Benchmark antes/depois do caching com economia medida no projeto-fio.",
+            ),
+            activity(
+                "ai-p07a-mcp", "Model Context Protocol (MCP)", "Hugging Face MCP Course",
+                "https://huggingface.co/learn/mcp-course/unit0/introduction", 20,
+                "MCP host, client e server; transporte, descoberta de ferramentas, permissões e segurança; integrar com o projeto-fio.",
+                "Servidor MCP próprio publicado com 2 ferramentas do projeto-fio, cliente conectado e testes de permissão.",
+            ),
+            activity(
+                "ai-p07a-closed", "Prova fechada de prompting/contexto", "Projeto público próprio",
+                "https://github.com/pedrogouveia001/decision-intelligence-ai", 6, AUTONOMY,
+                "Código autoral + relatório de 3 melhorias de prompt medindo qualidade e custo.",
+            ),
+        ],
+        "milestone": {
+            "title": "Prova mínima de prompting/contexto/MCP",
+            "evidence": "Biblioteca de prompts versionada, servidor MCP próprio, benchmarks de sampling/caching e defesa oral.",
+            "closedProof": AUTONOMY,
+        },
+    },
+    {
+        "id": "ai-p07b", "title": "Multimodal, modelos open-source e vector DBs",
+        "level": "avançado",
+        "goal": "Estender para além de texto puro e rodar modelos abertos localmente — requisitos dos roadmaps AI Engineer e AI Agents.",
+        "activities": [
+            activity(
+                "ai-p07b-multimodal", "Multimodal: visão, imagem e áudio", "Hugging Face + OpenAI/Anthropic/Google docs",
+                "https://huggingface.co/learn/computer-vision-course/unit0/welcome", 20,
+                "Vision API, image understanding, image generation, Whisper (speech-to-text), TTS, casos de uso de imagem/vídeo/áudio e limites.",
+                "Pipeline multimodal no projeto-fio: 1 tarefa de visão + 1 de áudio, com avaliação e custo medidos.",
+            ),
+            activity(
+                "ai-p07b-opensource", "Modelos open-source e self-hosted", "Hugging Face Hub + Ollama",
+                "https://ollama.com/docs", 16,
+                "Gemma, Qwen, Llama, Mistral; quantização (GGUF), escolha de modelo, inferência local com Ollama, custos zero vs API e trade-offs de qualidade.",
+                "Modelo aberto rodando localmente no projeto-fio; comparativo de qualidade/latência/custo vs API.",
+            ),
+            activity(
+                "ai-p07b-vector-db", "Vector databases além de pgvector", "Chroma, FAISS, Qdrant, Weaviate, LanceDB",
+                "https://docs.trychroma.com/", 14,
+                "Comparar 2 alternativas além de pgvector: índice HNSW, filtros metadados, persistência, throughput e custo de memória.",
+                "Benchmark de recall/latência/memória em dataset do projeto-fio; ADR documentando escolha.",
+            ),
+            activity(
+                "ai-p07b-embeddings", "Embedding models e reranking", "Sentence Transformers + Cohere docs",
+                "https://www.sbert.net/", 12,
+                "Sentence transformers, open-embeddings, Cohere/Gemini embedding, rerankers, matryoshka e distância/cosine.",
+                "Matriz comparativa de 4 embeddings no eval set do projeto-fio com custo e latência.",
+            ),
+            activity(
+                "ai-p07b-closed", "Prova fechada multimodal/open-source", "Projeto público próprio",
+                "https://github.com/pedrogouveia001/decision-intelligence-ai", 6, AUTONOMY,
+                "ADR atualizado e defesa oral de 15 min.",
+            ),
+        ],
+        "milestone": {
+            "title": "Prova mínima de multimodal e open-source",
+            "evidence": "Pipeline multimodal no projeto, modelo aberto local rodando, benchmark de vector db e defesa.",
+            "closedProof": AUTONOMY,
+        },
+    },
+    {
+        "id": "ai-p07c", "title": "Explainable AI, RL e aprendizado não-supervisionado",
+        "level": "avançado",
+        "goal": "Complementos do roadmap Machine Learning: interpretabilidade (SHAP/LIME — ponte direta com seu MCDM), RL básico e não-supervisionado aprofundado.",
+        "activities": [
+            activity(
+                "ai-p07c-xai", "Explainable AI: SHAP e LIME", "SHAP docs + Interpretml",
+                "https://shap.readthedocs.io/en/latest/", 20,
+                "SHAP values, LIME, feature importance, dependência, interação, explicação global vs local e limites.",
+                "Relatório de interpretabilidade em modelo do projeto-fio; explicar 5 decisões de um modelo tabular.",
+            ),
+            activity(
+                "ai-p07c-xai-mcdm", "Ponte MCDM ↔ XAI", "Projeto público próprio (sad-mcdm)",
+                "https://github.com/sad-mcdm/sad-mcdm-lib", 10,
+                "Conectar pesos ROC/importância MCDM com SHAP; comparar explicações multicritério com explicações de ML.",
+                "Notebook público integrando um método MCDM (ex. PROMETHEE) com SHAP em dataset público.",
+            ),
+            activity(
+                "ai-p07c-unsup", "Não-supervisionado aprofundado", "scikit-learn oficial",
+                "https://scikit-learn.org/stable/modules/clustering.html", 12,
+                "Clustering (k-means, DBSCAN, hierárquico), PCA, t-SNE, autoencoders e detecção de anomalia.",
+                "Duas análises exploratórias completas com escolha justificada de algoritmo.",
+            ),
+            activity(
+                "ai-p07c-rl", "Reinforcement learning básico", "OpenAI Gymnasium + PyTorch",
+                "https://gymnasium.farama.org/", 14,
+                "Q-learning, DQN, policy gradient básico e actor-critic introdutório — nível roadmap ML, sem aprofundar em pesquisa.",
+                "Agente DQN treinado em ambiente simples com curva de aprendizado documentada.",
+            ),
+            activity(
+                "ai-p07c-closed", "Prova fechada de XAI/RL", "Projeto público próprio",
+                "https://github.com/pedrogouveia001/decision-intelligence-ai", 6, AUTONOMY,
+                "Notebook autoral e defesa oral de 15 min.",
+            ),
+        ],
+        "milestone": {
+            "title": "Prova mínima de XAI e aprendizados avançados",
+            "evidence": "Relatório SHAP, integração MCDM↔XAI, análise não-supervisionada e agente RL básico documentados.",
+            "closedProof": AUTONOMY,
+        },
+    },
+    {
+        "id": "ai-p13", "title": "DSA e engenharia de sistemas para IA",
+        "level": "intermediário → avançado",
+        "goal": "Estruturas de dados, complexidade, concorrência e system design de inferência — base para PyTorch internals, batching/streaming e entrevista técnica de IA.",
+        "activities": [
+            activity(
+                "ai-p13-dsa-core", "Estruturas de dados e algoritmos aplicados a ML", "LeetCode (trilha ML-adjacente) + NeetCode",
+                "https://neetcode.io/practice", 40,
+                "Arrays, hashmaps, heap, árvore, grafo, DP e complexidade — foco em problemas que aparecem em sistemas de ML (batching, top-k, janela deslizante, deduplicação).",
+                "60 problemas resolvidos sem IA; 15 deles com notebook explicando a relação com um problema real de ML (ex.: top-k retrieval, sliding window em streaming).",
+            ),
+            activity(
+                "ai-p13-concurrency", "Concorrência e paralelismo em Python", "Docs oficiais Python (asyncio, threading, multiprocessing)",
+                "https://docs.python.org/3/library/asyncio.html", 24,
+                "GIL, asyncio, thread pool, process pool, filas, lock/semáforo, race conditions — essencial para serving de modelos e pipelines de dados.",
+                "Implementar um worker pool que processa batch de inferência com backpressure; benchmark e explicação de quando usar async vs threads vs processos.",
+            ),
+            activity(
+                "ai-p13-system-design", "System design de sistemas de IA", "Roadmap.sh System Design + padrões de inferência",
+                "https://roadmap.sh/system-design", 28,
+                "Arquitetura de inferência online: roteamento, batching dinâmico, cache de embedding e resposta, fallback, rate limit, multi-modelo, multi-região e degradação.",
+                "Desenho de arquitetura (diagrama + ADR) de um sistema de inferência em produção, publicado no projeto-fio e defendido por 20 min.",
+            ),
+            activity(
+                "ai-p13-closed", "Prova fechada de DSA e system design", "Projeto público próprio",
+                "https://github.com/pedrogouveia001/decision-intelligence-ai", 8, AUTONOMY,
+                "Código autoral, análise de complexidade e defesa oral de 20 min.",
+            ),
+        ],
+        "milestone": {
+            "title": "Prova mínima de base de engenharia para entrevista de IA",
+            "evidence": "60 problemas de algoritmos, worker pool implementado, desenho de arquitetura de inferência e defesa oral.",
+            "closedProof": AUTONOMY,
+        },
+    },
+    {
+        "id": "ai-p14", "title": "Certificações oficiais de IA e cloud",
+        "level": "avançado",
+        "goal": "Credenciais reconhecidas de mercado (AWS, Google Cloud, NVIDIA) após prática real — certificado sem projeto não sustenta entrevista, então cada exame vem depois da prática correspondente.",
+        "activities": [
+            activity(
+                "ai-p14-aws-aif", "AWS Certified AI Practitioner (AIF-C01)", "AWS Certification",
+                "https://aws.amazon.com/certification/certified-ai-practitioner/", 20,
+                "Exame foundational de IA/ML/GenAI na AWS (US$100, 65 questões, 90 min). Cobre fundamentos de IA/ML, GenAI, foundation models, responsible AI e segurança/governança. Vale como vocabulário e porta de entrada; não é o exame de engenharia.",
+                "Simulados ≥85% consistente; exame agendado e aprovado.",
+                kind="certificação",
+            ),
+            activity(
+                "ai-p14-aws-mla", "AWS Certified Machine Learning Engineer – Associate (MLA-C02)", "AWS Certification",
+                "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/", 40,
+                "Exame associate de ML engineering (US$150, ~65 questões). Valida ingestão/preparo de dados, desenvolvimento de modelos, deploy/orquestração, monitoramento e segurança — com GenAI e agentes na versão MLA-C02. Só tentar após o Pilar 10 (MLOps) e prática real em SageMaker/Bedrock.",
+                "Simulados ≥85%; exame aprovado; badge no LinkedIn e GitHub.",
+                kind="certificação",
+            ),
+            activity(
+                "ai-p14-gcp-pmle", "Google Cloud Professional Machine Learning Engineer (PMLE)", "Google Cloud Certification",
+                "https://cloud.google.com/learn/certification/machine-learning-engineer", 40,
+                "Exame professional de ML Engineer (US$200, ~60 questões, 120 min). Valida arquitetura de soluções de IA/ML, dados, pipelines, serving, MLOps, monitoramento e responsible AI. Google recomenda 3+ anos de experiência — a prática do plano substitui parte disso, mas o exame é exigente.",
+                "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+                kind="certificação",
+            ),
+            activity(
+                "ai-p14-nvidia-aiio", "NVIDIA-Certified Associate AI Infrastructure and Operations (NCA-AIIO)", "NVIDIA Certification",
+                "https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/", 16,
+                "Exame associate de infraestrutura de IA (US$125, 50 questões, 60 min). Cobre GPU, accelerated computing, networking, data center e operação de workloads de IA. Diferencial raro para quem quer atuar perto de infraestrutura/inferência de modelos; opcional se o foco for aplicado.",
+                "Simulados ≥80%; exame aprovado; badge no LinkedIn e GitHub.",
+                kind="certificação",
+            ),
+        ],
+        "milestone": {
+            "title": "Prova mínima de credencial de IA reconhecida de mercado",
+            "evidence": "Pelo menos AWS MLA-C02 ou Google PMLE aprovado; AIF-C01 e NCA-AIIO como complementos opcionais.",
+            "closedProof": AUTONOMY,
+        },
+    },
 ]
 
 
@@ -653,7 +894,7 @@ def validate_source() -> None:
             if item["id"] in activity_ids:
                 raise ValueError(f"ID de atividade duplicado: {item['id']}")
             activity_ids.add(item["id"])
-            if not re.fullmatch(r"ai-p\d{2}-[a-z0-9-]+", item["id"]):
+            if not re.fullmatch(r"ai-p\d{2}[a-z]?-[a-z0-9-]+", item["id"]):
                 raise ValueError(f"ID inválido: {item['id']}")
             if not item["url"].startswith("https://"):
                 raise ValueError(f"URL não HTTPS: {item['url']}")
