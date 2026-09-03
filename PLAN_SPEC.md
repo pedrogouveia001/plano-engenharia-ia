@@ -1,33 +1,43 @@
-# Especificação do plano — v1 (03/09/2026)
+# Especificação do plano — v2 (03/09/2026)
 
-Substitui o plano Backend/Fullstack v3 Full (18 pilares, 324 semanas, 2.527h) como itinerário único de transição para **Engenharia de IA aplicada**.
+Substitui a v1 (12 pilares, 183 semanas, 1.451h). Base desta revisão: **roadmaps.sh** (AI Engineer, Machine Learning, MLOps, Prompt Engineering, AI Agents) + relatório de vagas reais de 2026 (RESEARCH_2026.md).
 
 ## Totais
 
 | Métrica | Valor |
 |---|---|
-| Pilares | 12 |
-| Semanas | 183 (8h/semana padrão) |
-| Horas totais | 1.451h |
+| Pilares | 17 |
+| Semanas | 247 (8h/semana padrão) |
+| Horas totais | 1.945h |
 | Já concluídas (CS50x 100h + CS50P 45h) | 145h |
-| Restantes | 1.306h |
-| Marcos de empregabilidade | 6 |
+| Restantes | 1.800h |
+| Marcos de empregabilidade | 11 |
 | Formações Coursera integrais | 6 (632h) |
 
-## Mudanças vs plano anterior
+## Mudanças vs v1 (baseadas nos roadmaps.sh)
 
-| Antes (v3 Full) | Agora (v1 IA) | Por quê |
+| Gap identificado nos roadmaps | Ação no plano | Horas |
 |---|---|---|
-| Backend fullstack como alvo | **Engenharia de IA aplicada** | Objetivo explícito do usuário |
-| Zero IA/LLM (regra "CESAR overlap") | **IA é o núcleo do plano** | A regra antiga era incompatível com o objetivo novo; CESAR School é para engenharia de software com IA, não impede formação autônoma em IA |
-| Coursera avulso permitido em algumas trilhas | **Somente formações completas** (Specialization / Professional Certificate) | Regra do usuário: certificado final obrigatório |
-| FIAP, CS50, Coursera mistos sem hierarquia | **FIAP Nano Courses (gratuitos) → CS50 → Coursera** como ordem prática de prioridade | Preferência do usuário |
-| Projeto-fio E-Commerce API | **decision-intelligence-ai** (dados públicos/sintéticos) | Conecta a base MCDM existente com IA; nunca dados privados |
-| Docker/CI adiantados mas IA longe | **Docker/CI/API de inferência cedo** (Pilar 3) | Prática de produção cedo; requisito universal em vagas de IA |
-| 2.527h em 18 pilares (redundância extrema) | 1.451h em 12 pilares | Corte de redundância mantendo profundidade de elite |
-| Autonomia não explicitada | **Política de prova fechada sem IA** por marco | Transparência: separa produtividade assistida de competência independente |
+| Prompt Engineering como disciplina própria (CoT, ToT, ReAct, prompt tuning, debiasing) | Novo pilar 7a | 68h |
+| MCP (Model Context Protocol) — host/client/server | Novo pilar 7a | 20h |
+| Multimodal (visão, imagem, áudio) — ausente no v1 | Novo pilar 7b | 20h |
+| Modelos open-source / self-hosted (Ollama, GGUF, quantização) | Novo pilar 7b | 16h |
+| Vector DBs além de pgvector (Chroma, FAISS, Qdrant) | Novo pilar 7b | 14h |
+| Reranking e comparação de embeddings | Novo pilar 7b | 12h |
+| Explainable AI (SHAP/LIME) — ponte direta com MCDM | Novo pilar 7c | 30h |
+| RL básico (roadmap ML lista; v1 não tinha) | Novo pilar 7c | 14h |
+| Não-supervisionado aprofundado (clustering, PCA, anomalia) | Novo pilar 7c | 12h |
+| DSA aplicado a ML (top-k, batching, streaming) | Pilar 13 (já criado) | 40h |
+| Concorrência Python (GIL, asyncio, worker pool) | Pilar 13 | 24h |
+| System design de inferência (routing, batching, fallback) | Pilar 13 | 28h |
+| Orquestração de dados (Airflow) — roadmap MLOps | Expansão do pilar 10 | 16h |
+| Kafka / streaming de eventos de inferência | Expansão do pilar 10 | 14h |
+| Kubernetes para ML (HPA, GPU scheduling) | Expansão do pilar 10 | 20h |
+| IaC (Terraform) — roadmap MLOps | Expansão do pilar 10 | 12h |
+| Prometheus/Grafana (SLI/SLO de inferência) | Expansão do pilar 10 | 12h |
+| Edge AI / ONNX (opcional) | Expansão do pilar 10 | 6h |
 
-## Regras vigentes
+## Regras vigentes (inalteradas)
 
 1. Coursera é eixo certificável; toda entrada é formação integral — nunca curso avulso, nunca módulo pulado.
 2. FIAP Nano Courses (gratuitos) são preferidos para introdução a tópicos quando existem; CS50 é o eixo Harvard; Coursera é o eixo de formações.
@@ -44,12 +54,13 @@ Substitui o plano Backend/Fullstack v3 Full (18 pilares, 324 semanas, 2.527h) co
 
 Se o ritmo cair, cortar **formações inteiras** (nunca fracionar) nesta ordem:
 
-1. **Nunca cortar:** Pilar 2 (Python autônomo), Pilar 4 (Matemática), Pilar 10 (MLOps), Pilar 11 (LLM/RAG).
+1. **Nunca cortar:** Pilar 2 (Python autônomo), Pilar 4 (Matemática), Pilar 8 (LLM/RAG), Pilar 13 (DSA/engenharia de sistemas).
 2. Encurtar Pilar 12 (Cloud/AWS) para núcleo sem certificação.
-3. Adiar Pilar 5 (Deep Learning avançado) para depois de conseguir primeiro emprego em IA.
-4. Último recurso: mover Pilar 9 (MLOps) para trilha pós-contratação, mas isso quebra o requisito "MLOps" das vagas — exige reabrir esta especificação antes de fazer.
+3. Adiar Pilar 6 avançado (Deep Learning) para depois do primeiro emprego em IA.
+4. Último recurso: mover Pilar 10 (MLOps) para trilha pós-contratação, mas isso quebra o requisito "MLOps" das vagas — exige reabrir esta especificação antes de fazer.
+5. Os pilares 7a/7b/7c são expansion packs: se o prazo apertar, 7c (XAI/RL) é o primeiro a ser adiado inteiro.
 
-## Estrutura de 12 pilares
+## Estrutura de 17 pilares
 
 | # | Pilar | Foco | Horas (aprox.) |
 |---|---|---|---|
@@ -60,10 +71,23 @@ Se o ritmo cair, cortar **formações inteiras** (nunca fracionar) nesta ordem:
 | 5 | ML clássico | Machine Learning Specialization + prática Kaggle | ~150 |
 | 6 | Deep Learning | Deep Learning Specialization + PyTorch tutorial + backprop manual | ~170 |
 | 7 | NLP e Transformers | Hugging Face, fine-tuning, tokenização | ~80 |
+| 7a | Prompt/context engineering e MCP | prompting sistemático, sampling, caching, MCP server próprio | 68 |
+| 7b | Multimodal, open-source e vector DBs | visão/áudio, Ollama/GGUF, Chroma/FAISS/Qdrant, rerankers | 68 |
+| 7c | XAI, RL e não-supervisionado | SHAP/LIME, ponte MCDM↔XAI, DQN, clustering | 62 |
 | 8 | LLM Apps | Generative AI Engineering with LLMs + RAG/agentes/evals | ~150 |
 | 9 | Data engineering e reprodutibilidade | versionamento de dados, pipelines, qualidade | ~60 |
-| 10 | MLOps | MLOps Duke + MLflow + serving + monitoramento | ~180 |
+| 10 | MLOps | MLOps Duke + MLflow + Airflow + Kafka + K8s + Terraform + Prometheus | ~240 |
 | 11 | Capstone em produção | decision-intelligence-ai completo (RAG + evals + deploy) | ~150 |
 | 12 | Cloud AWS (opcional certificação MLA) | AWS Skill Builder + prática | ~100 |
+| 13 | DSA e engenharia de sistemas para IA | algoritmos aplicados a ML, concorrência, system design de inferência | 100 |
 
-Verificação: a soma exata está em `data/plan_meta.json` (`formationHours`, `totalHours`).
+Verificação: a soma exata está em `data/plan_meta.json` (`formationHours`, `totalHours`). Total exato: **1.945h em 247 semanas**.
+
+## Referências de roadmap
+
+- https://roadmap.sh/ai-engineer — espinha dorsal dos pilares 7–12
+- https://roadmap.sh/machine-learning — matemática, ML clássico, DL, XAI, RL
+- https://roadmap.sh/mlops — Airflow, Kafka, K8s, Terraform, Prometheus, edge
+- https://roadmap.sh/prompt-engineering — pilar 7a
+- https://roadmap.sh/ai-agents — MCP, tool use, agentes no pilar 8
+- https://roadmap.sh/system-design — pilar 13
