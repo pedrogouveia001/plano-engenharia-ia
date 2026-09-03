@@ -38,6 +38,12 @@ Horas verificadas por extração de página (soma dos cursos listados na página
 | Titan AI | Applied AI Engineer ($200–300K, remoto US) | https://jobs.ashbyhq.com/titan-ai/297cf9a9-289d-4cd5-a4a1-1e051f6f5d64 |
 | Unstructured Technologies | AI Engineer – Public Sector | https://jobs.ashbyhq.com/unstructured/9df95483-7177-4f98-850e-4abbdf530434 |
 
+## Relatório de pesquisa dedicado
+
+| Fonte | Caminho |
+|---|---|
+| Trilha 2026 — Engenheiro de IA/ML aplicado (17 URLs validadas mecanicamente, inclui definições Microsoft/Google Cloud e vagas reais Google/Apple/Amazon/OpenAI/Anthropic) | `evidence/RESEARCH_2026.md` |
+
 ## Fontes pessoais (internas, não publicadas no site)
 
 | Fonte | Caminho |
