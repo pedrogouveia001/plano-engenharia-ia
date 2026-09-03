@@ -16,6 +16,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "evidence" / "project_inventory.json"
 EXCLUDE_OWNERS = {"code50", "me50"}
+# O próprio repo do plano não é projeto de competência; apareceu após o create
+EXCLUDE_REPOS = {"plano-engenharia-ia"}
 
 GH_REPO_FIELDS = "name,owner,isPrivate,isArchived,isFork,primaryLanguage,description,diskUsage,updatedAt,createdAt,pushedAt,defaultBranchRef,homepageUrl,url"
 
@@ -66,8 +68,12 @@ def main() -> int:
             print(f"AVISO: {exc}", file=sys.stderr)
             return 1
 
-    # code50/me50 aparecem em contexto de cursos CS50; forks descartados
-    inventory = [r for r in inventory if r["owner"] not in EXCLUDE_OWNERS and not r["fork"]]
+    # code50/me50 aparecem em contexto de cursos CS50; forks e o próprio
+    # repositório do plano descartados
+    inventory = [r for r in inventory
+                 if r["owner"] not in EXCLUDE_OWNERS
+                 and r["name"] not in EXCLUDE_REPOS
+                 and not r["fork"]]
 
     # Deduplicar por (owner, name)
     seen: set[tuple[str, str]] = set()
